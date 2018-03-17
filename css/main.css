@@ -1,0 +1,11 @@
+.BG-1 {
+  width: 1600px;
+  height: 900px;
+  background-color: #ffffff;
+}
+
+.Logo-img {
+  width: 227px;
+  height: 70px;
+  object-fit: contain;
+}
