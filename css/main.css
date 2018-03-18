@@ -11,11 +11,13 @@ p.bigFont{font-size:1.8em;line-height:23px;}
 .textSemiBold{font-weight:600;}
 .btn{height:60px;display:flex;align-items:center;justify-content: center;padding:0 49px;box-shadow:none;background:transparent;font-size:1.6em;font-weight:bold;line-height:12px;text-transform: uppercase;color:#f0606f;letter-spacing: 0.4px;border-image-source: linear-gradient(to top, #f0616f, #f0746f);border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;}
+
 /*---- COMMON CSS SECTION ENDS ----*/
 
 /*---- HEADER CSS SECTION STARTS ----*/
 
 /*---- Top bar css starts ----*/
+
 /*---- Top bar css ends ----*/
 
 /*---- Banner css starts ----*/
