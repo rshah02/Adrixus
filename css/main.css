@@ -1,6 +1,6 @@
 
 /*---- COMMON CSS SECTION STARTS ----*/
-body{font-size:10px;font-family:'Open Sans', sans-serif;color:#555}
+body{font-size:10px;font-family:'Open Sans', sans-serif;color:#555;}
 body.styleGuidePage{margin:0 100px 50px;}
 h1, h2, h3{font-family:'Oswald', sans-serif;}
 h1{font-size:13.3em;line-height:230px;font-weight:400;letter-spacing:2.7px;color:#f2f2f2}
@@ -14,13 +14,62 @@ p.bigFont{font-size:1.8em;line-height:23px;}
 
 /*---- COMMON CSS SECTION ENDS ----*/
 
-/*---- HEADER CSS SECTION STARTS ----*/
 
+
+.mainWrapper{
+    float: left;
+    width: 100%;
+    
+}
+/*---- HEADER CSS SECTION STARTS ----*/
+.headerMainWrapper{
+    float: left;
+    width: 100%;
+}
+.container-fluid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /*---- Top bar css starts ----*/
+.logoWrapper{
+    
+    padding-top: 30px;
+   float: left; 
+   
+}
+a,a:active{text-decoration-line: none;
+   color: #555555;
+    
+}
+
+.topLinks {
+  
+  font-family:'Open Sans', sans-serif;color:#555;
+  font-size: 1.6em;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.125rem;
+  
+  text-align: center;
+  float: right;
+}
+
+
+
+.toplinks ul li{
+    display: inline-block;
+    text-align: center;
+    padding-right: 60px;
+  
+}
+
 
 /*---- Top bar css ends ----*/
 
 /*---- Banner css starts ----*/
+
+
 /*---- Banner css ends ----*/
 
 /*---- HEADER CSS SECTION ENDS ----*/
@@ -29,6 +78,7 @@ p.bigFont{font-size:1.8em;line-height:23px;}
 /*---- CONTENT CSS SECTION STARTS ----*/
 
 /*---- About us css starts ----*/
+
 /*---- About us css ends ----*/
 
 /*---- Our services css starts ----*/
