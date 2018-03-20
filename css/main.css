@@ -1,4 +1,6 @@
-
+/*---------------- Start Reset CSS ----------------- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small, strike,strong, tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}body{line-height:1}ol,ul{list-style:none} blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none} del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}img{max-width:100%;}
+/*---------------- End Reset CSS ----------------- */
 /*---- COMMON CSS SECTION STARTS ----*/
 body{font-size:10px;font-family:'Open Sans', sans-serif;color:#555;}
 body.styleGuidePage{margin:0 100px 50px;}
@@ -11,7 +13,7 @@ p.bigFont{font-size:1.8em;line-height:23px;}
 .textSemiBold{font-weight:600;}
 .btn{height:60px;display:flex;align-items:center;justify-content: center;padding:0 49px;box-shadow:none;background:transparent;font-size:1.6em;font-weight:bold;line-height:12px;text-transform: uppercase;color:#f0606f;letter-spacing: 0.4px;border-image-source: linear-gradient(to top, #f0616f, #f0746f);border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;} a{text-decoration-line: none}
-
+.pull-left{float: left;}.pull-right{float: right;}
 /*---- COMMON CSS SECTION ENDS ----*/
 .mainWrapper{
 /*background-color: #f2f2f2; */
@@ -19,8 +21,8 @@ p.bigFont{font-size:1.8em;line-height:23px;}
 }
 .headerMainWrapper{
     max-width: 1600px;
-    height: 900px;
-    background-image: url(../img/bg-1.png);
+
+    /*background-image: url(../img/bg-1.png);*/
     width:100%;
 margin: 0 auto;
 }
@@ -62,7 +64,7 @@ margin: 0 auto;
  
   letter-spacing: 0.3px;
   text-align: center;
-  font-color:#000;
+color:#000;
 
     flex: 2;
 }
@@ -72,11 +74,13 @@ margin: 0 auto;
 /*---- Banner css starts ----*/
 .bannerSection{
     width: 100%;
-        
-display: flex;
+float: left;        
+
 }
 .leftWrapper{
- flex: 1;
+ 
+    float: left;
+    width:55%;
 }
 
 
@@ -92,6 +96,8 @@ display: flex;
   letter-spacing: 0.5px;
   text-align: left;
   color: #555555;
+    position: absolute;
+    top: 357px;
 }
 
 .box2{
@@ -113,7 +119,10 @@ display: flex;
      background-image: linear-gradient(to bottom, #f0756f, #f0606f);
 }
 .rightWrapper{
-padding-top: 19px;    
+padding-top: 19px; 
+    float: right;
+    width:45%;
+   
 }
 .banner{
     background-image: linear-gradient(to bottom, #f0756f, #f0606f);
@@ -126,12 +135,9 @@ padding-top: 19px;
 
 
 /*---- CONTENT CSS SECTION STARTS ----*/
-.contentMainWrapper{
- 
-}
+
 .aboutUsSection{
-   /* background-image: url(../img/rectangle-3-copy-10.png);
-*/
+
 background-color:#f2f2f2;
 }
 
@@ -140,14 +146,28 @@ background-color:#f2f2f2;
 /*---- About us css ends ----*/
 
 /*---- Our services css starts ----*/
+.rightAlignedContent{
+  float: right;
+}
+.leftAlignedContect{
+ float:left;
+}
 .blockChainSection{
+    float: left;
    width: 100%;
+    
+}
+.serviceContentSection{
+    width: 100%;
+   padding-top: 110px;
 }
 .ourServicesSection{
-
-
+float: left;
+width: 100%;
+    
   
 }
+
 .box3{
    max-width:60px;
     max-height: 60px;
@@ -164,31 +184,101 @@ background-color:#f2f2f2;
 }
 
 .leftSection{
-    width: 50%;
-   float: left;
+  
+  float: left;width: 50%;
 }
+
 .rightSection{
-    width: 50%;
-    float: left;
+  float: left;width: 50%;
+   
+    
+}
+.serviceImage{
+    float: right;padding-right: 40px;
 }
 .serviceTypes{
     font-size: 1rem;
     line-height: 1.38em;
-    display: inline;
+ width: 100%
+     display: inline;
 }
-
+.col-4{
+    width: 33.33%;
+    float: left;    
+}
+.webDevelopmentSection{
+    width: 100%;
+    float: left;
+}
+.uxDesignSection{
+    width: 100%;
+    float: left;
+}
+.mobileDevelopmentSection{
+    width: 100%;
+    float: left;
+}
 /*---- Our services css ends ----*/
 
 /*---- Portfolio css starts ----*/
+.portFolioSection{
+    
+    width: 100%;
+    float: left;
+    background-color: #f2f2f2;
+}
+.portfolioContent {
+  
+  font-family: Open Sans;
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56em;
+  letter-spacing: normal;
+  text-align: left;
+  color: #555555;
+
+    
+}
+
+
+.portfolioList{
+    width: 25%;
+    height:300px;
+    border-style: solid;
+    border-width: 1px;
+border-bottom-color: crimson;
+    float:left; 
+    display: inline;
+    
+}
+.downloadButton{
+    padding-top: 60px;
+    padding-left: 131px;
+    width: 100%
+        float:left;
+}
+.portFolioSection > .rightWrapper{
+    width: 75%;
+    float: left;
+}
 /*---- Portfolio css ends ----*/
 
 /*---- Client say css starts ----*/
+.clientSaySection{
+    
+}
 /*---- Client say css ends ----*/
 
 /*---- CONTENT CSS SECTION ENDS ----*/
 
 
 /*---- FOOTER CSS SECTION STARTS ----*/
+.footerMainWrapper{
+    background-color: #464646;
+
+}
 
 /*---- Contact us css starts ----*/
 /*---- Contact us css ends ----*/
