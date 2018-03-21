@@ -46,12 +46,12 @@ margin: 0 auto;
 }
 .topSection{
     width: 100%;
-    display: flex;
+    
     padding-bottom: 32px;
 }
 .logoWrapper{
     padding-top: 30px;
-    flex: 1;
+    float: left;
 }
 .topLinks{
     
@@ -65,8 +65,9 @@ margin: 0 auto;
   letter-spacing: 0.3px;
   text-align: center;
 color:#000;
+    float: right;
 
-    flex: 2;
+ 
 }
 
 /*---- Top bar css ends ----*/
@@ -80,7 +81,7 @@ float: left;
 .leftWrapper{
  
     float: left;
-    width:55%;
+    width:50%;
 }
 
 
@@ -110,7 +111,8 @@ float: left;
     background-color: #f2f2f2;
     border-style:hidden;
   display: inline-block;
-  transform: translate(-180px);
+    float: left;
+ /*transform: translate(-180px); */
     
    
 }
@@ -121,7 +123,7 @@ float: left;
 .rightWrapper{
 padding-top: 19px; 
     float: right;
-    width:45%;
+    width:50%;
    
 }
 .banner{
@@ -266,10 +268,72 @@ border-bottom-color: crimson;
 /*---- Portfolio css ends ----*/
 
 /*---- Client say css starts ----*/
+#contactFont{
+    color: #ffffff;
+}
 .clientSaySection{
+    width: 100%;
+    float: left;
+    padding-top: 59px;
+}
+.clientSayList{
+    padding-top: 74px;
+}
+.clientSayItem .leftWrapper{
+    float: left;
+    width: 16%;
+
+}
+.clientSayItem .rightWrapper{
+    margin-left: -100px;
+    margin-top: 100px;
+    padding-left: 100px;
+    border-style: solid;
+    float: left;
+    width: 83%;
+     border-style: solid;
+    border-width: 2px;
+  
+    border-color:#f2f2f2; 
+  
+   
+}
+.quoteImage{
+    width: 100%;
+}
+.clientSayContent{
+    width: 100%;
+    border-style: solid;
+    float: left;
     
 }
-/*---- Client say css ends ----*/
+.clientRating{
+ 
+    width: 100%;
+   
+}
+.clientName{
+    font-size: 2em;
+    width: 100%;
+}
+.clientReview{
+    padding-top: 39px;
+    
+}
+.fa-heart {
+  
+  font-size: 22px;
+ color: deepskyblue;
+}
+.clientSaySection .box2{
+    max-height: 70px;
+    max-width: 70px;
+    float: right;
+   display: table-column;
+}
+
+
+/*--- Client say css ends ----*/
 
 /*---- CONTENT CSS SECTION ENDS ----*/
 
@@ -277,11 +341,119 @@ border-bottom-color: crimson;
 /*---- FOOTER CSS SECTION STARTS ----*/
 .footerMainWrapper{
     background-color: #464646;
+    width: 100%;
+float: left;
+}
+.footerLeftWrapper{
+    width: 67%;
+    float: left;
+}
+.footerRightWrapper{
+    width: 33%;
 
+    float: left;
 }
 
 /*---- Contact us css starts ----*/
+.contactUsSection{
+    margin-top: 73px;
+    
+}
+.contactUsFormWrapper{
+    margin-top: 59px;
+}
+.inputFullWidthSection{
+    width: 100%;
+    float: left;
+    
+}
+.inputHalfWidthSection{
+       width:47.52%;
+    
+    float: left;
+padding-bottom: 20px;
+    padding-right:10px;
+    
+   
+
+
+}
+
+
+input[type="text"],input[type="email"],input[type="tel"],textarea{
+    background-color: #383838;
+    float: left;
+    border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out;
+    padding-top:23px;
+    padding-bottom: 24px;
+padding-left: 20px;
+    font-size: 1rem;
+    width: 100%;
+    
+}
+.formButtonHolder{
+    width: 190px;
+    float: left;
+}
+
+.socialInfoSection{
+    width: 100%;
+    float: left;
+}
+.mail{
+    float: left;
+    width:55%;
+   
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  text-align:right;
+  color: #898989;
+}
+
+.socialMediaIcons{
+    float:left;width:45%;
+    
+}
+.iconsRow{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+.box{
+
+
+  background-color: #595959;
+
+  border: solid 2px #595959;
+    border-radius: 50%;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+}
+.box:hover{
+    background-color: #ffffff;
+}
+.copyRightsText{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 143px;
+}
 /*---- Contact us css ends ----*/
 
-
+.fas{
+    font-size: 25px;
+}
 /*---- FOOTER CSS SECTION ENDS ----*/
