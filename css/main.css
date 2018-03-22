@@ -1,3 +1,11 @@
+/* Notes Starts */
+
+/* Write minified version */
+/* Remove use of repetative code */
+/* Remove un-necessary class styles. For example, .mainWrapper has width of 100%, but we already have one class having same css i.e. fullWidth. Then, we should not use such css in any class selector */
+/* Give relevant class name. For example, what is the meaning of box1? Classname should represent the behaviour of */
+/* Notes Ends */
+
 /*---------------- Start Reset CSS ----------------- */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small, strike,strong, tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}body{line-height:1}ol,ul{list-style:none} blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none} del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}img{max-width:100%;}
 /*---------------- End Reset CSS ----------------- */
@@ -13,54 +21,40 @@ p.bigFont{font-size:1.8em;line-height:23px;}
 a, a:active{text-decoration-line: none;color: #555555;}
 .textSemiBold{font-weight:600;}
 .fullWidth{width: 100%}
+.halfWidth{width:50%}
 .pull-left{float:left;}
 .pull-right{float:right}
 .btn{height:60px;display:flex;align-items:center;justify-content: center;padding:0 49px;box-shadow:none;background:transparent;font-size:1.6em;font-weight:bold;line-height:12px;text-transform: uppercase;color:#f0606f;letter-spacing: 0.4px;border-image-source: linear-gradient(to top, #f0616f, #f0746f);border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;}
-.container-fluid{max-width: 1200px;margin: 0 auto;}
+.container-fluid{max-width: 1200px;margin: 0 auto;width:100%}
 /*---- COMMON CSS SECTION ENDS ----*/
-.mainWrapper{
-/*background-color: #f2f2f2; */
-    width: 100%;
-}
-.headerMainWrapper{
-    max-width: 1600px;
+/* .mainWrapper{width: 100%;} */
 
-    /*background-image: url(../img/bg-1.png);*/
+/* .headerMainWrapper{
+    max-width: 1600px;
     width:100%;
 margin: 0 auto;
-}
-.container-fluid{
+} */
+/* .container-fluid{
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-}
+} */
 
 /*---- HEADER CSS SECTION STARTS ----*/
 
+.mainWrapper {max-width: 1600px;margin: 0 auto;}
+.headerMainWrapper{background:white;}
 /*---- Top bar css starts ----*/
-.box1{
-    padding:59px 20 29px 20px;
-     text-align:center;
-    display:inline-flex;
-       
-}
-.box1:hover{
-    background-color: #f2f2f2;
-}
-.topSection{
-    width: 100%;
-    
-    padding-bottom: 32px;
-}
-.logoWrapper{
-    padding-top: 30px;
-    float: left;
-}
+/* Change the class Name */
+.box1 {padding:59px 20 29px 20px;text-align:center;display:inline-flex;}
+.box1:hover{background-color: #f2f2f2;}
+.topSection{/* padding-bottom: 32px; */margin-bottom:32px; /* Spacing is not inside div section. It is spacing between topSection and bannerSection. So, rather than, appling padding - we should use margin property */}
+.logoWrapper{padding-top: 30px;}
 .topLinks{
     
  
-  font-family: Open Sans;
+  font-family: Open Sans; /* We have already given font-family to whole body tag. Why do we need font family property here? */
   font-size: 1.6em;
   font-weight: normal;
   font-style: normal;
@@ -69,7 +63,6 @@ margin: 0 auto;
   letter-spacing: 0.3px;
   text-align: center;
 color:#000;
-    float: right;
 
  
 }
@@ -77,7 +70,8 @@ color:#000;
 /*---- Top bar css ends ----*/
 
 /*---- Banner css starts ----*/
-.bannerSection{
+/* pull-left and halfWidth already exist */
+/* .bannerSection{
     width: 100%;
 float: left;        
 
@@ -86,21 +80,16 @@ float: left;
  
     float: left;
     width:50%;
-}
-
-
-.tagLine{
-    text-align: left;
-    
-}
+} */
+.tagLine{text-align: left; /* Why do we need this property here */;}
 .beliefSection{
-    font-size: 32px;
+    font-size: 32px; /* use em */
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 0.5px;
   text-align: left;
-  color: #555555;
+  color: #555555; /* This color has already been applied to body. */
     position: absolute;
     top: 357px;
 }
@@ -125,7 +114,7 @@ float: left;
      background-image: linear-gradient(to bottom, #f0756f, #f0606f);
 }
 .rightWrapper{
-padding-top: 19px; 
+/* padding-top: 19px;  */
     float: right;
     width:50%;
    
