@@ -1,0 +1,7 @@
+{
+    "name": "adrixus-html",
+    "version": "0.0.1",
+    "dependencies": {
+      "express": "^4.11.0"
+    }
+  }

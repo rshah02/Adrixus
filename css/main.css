@@ -8,63 +8,22 @@ h2{font-size:5em;line-height:46px;letter-spacing:1.2px;margin-bottom:79px;}
 h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
 p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
 p.bigFont{font-size:1.8em;line-height:23px;}
+a, a:active{text-decoration-line: none;color: #555555;}
 .textSemiBold{font-weight:600;}
+.fullWidth{width: 100%}
+.pull-left{float:left;}
+.pull-right{float:right}
 .btn{height:60px;display:flex;align-items:center;justify-content: center;padding:0 49px;box-shadow:none;background:transparent;font-size:1.6em;font-weight:bold;line-height:12px;text-transform: uppercase;color:#f0606f;letter-spacing: 0.4px;border-image-source: linear-gradient(to top, #f0616f, #f0746f);border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;}
-
+.container-fluid{max-width: 1200px;margin: 0 auto;}
 /*---- COMMON CSS SECTION ENDS ----*/
 
-
-
-.mainWrapper{
-    float: left;
-    width: 100%;
-    
-}
 /*---- HEADER CSS SECTION STARTS ----*/
-.headerMainWrapper{
-    float: left;
-    width: 100%;
-}
-.container-fluid{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 /*---- Top bar css starts ----*/
-.logoWrapper{
-    
-    padding-top: 30px;
-   float: left; 
-   
-}
-a,a:active{text-decoration-line: none;
-   color: #555555;
-    
-}
-
-.topLinks {
-  
-  font-family:'Open Sans', sans-serif;color:#555;
-  font-size: 1.6em;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.125rem;
-  
-  text-align: center;
-  float: right;
-}
-
-
-
-.toplinks ul li{
-    display: inline-block;
-    text-align: center;
-    padding-right: 60px;
-  
-}
-
-
+.logoWrapper{padding-top: 30px;}
+.topLinks {font-size: 1.6em;font-weight: bold;line-height: 1.125rem;text-align: center;}
+.toplinks ul li{display: inline-block;text-align: center;padding-right: 60px;}
 /*---- Top bar css ends ----*/
 
 /*---- Banner css starts ----*/
