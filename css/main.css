@@ -17,7 +17,7 @@ h1{font-size:13.3em;line-height:230px;font-weight:400;letter-spacing:2.7px;color
 h2{font-size:5em;line-height:46px;letter-spacing:1.2px;margin-bottom:79px;}
 h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
 p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
-p.bigFont{font-size:1.8em;line-height:23px;}
+p.bigFont{font-size:1.8em;line-height:28px;}
 a, a:active{text-decoration-line: none;color: #555555;}
 .textSemiBold{font-weight:600;}
 .fullWidth{width: 100%}
@@ -33,18 +33,6 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;}
 .container-fluid{max-width: 1200px;margin: 0 auto;width:100%}
 /*---- COMMON CSS SECTION ENDS ----*/
-/* .mainWrapper{width: 100%;} */
-
-/* .headerMainWrapper{
-    max-width: 1600px;
-    width:100%;
-margin: 0 auto;
-} */
-/* .container-fluid{
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-} */
 
 /*---- HEADER CSS SECTION STARTS ----*/
 
@@ -64,25 +52,10 @@ margin: 0 auto;
 
 .beliefSection{font-size: 2em;letter-spacing: 0.5px;text-align: left;position: absolute;top: 357px;}
 
-.box2{
-   max-width:90px;
-    max-height: 90px;
-   padding: 32px 32px 32px 32px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    background-color: #f2f2f2;
-    border-style:hidden;
-  display: inline-block;
-    float: left;
- /*transform: translate(-180px); */
-    
-   
-}
-
-.box2:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
+.bannerSection .slide{max-width:90px;max-height: 90px; padding: 32px 32px 32px 32px;margin: 10px 10px 10px 0px;  background-color: #f2f2f2; border-style:hidden; display: inline-block;float: left;}
+.bannerSection .slide:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
 .banner{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
-
+   
 /*---- Banner css ends ----*/
 
 /*---- HEADER CSS SECTION ENDS ----*/
@@ -102,45 +75,31 @@ margin: 0 auto;
 .serviceContentSection{margin-top: 110px;}
 
 
-.box3{ max-width:60px;max-height: 60px;padding: 20px 20px 20px 20px;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden;display: inline-block; }
+.box3{ max-width:60px;max-height: 60px;padding: 20px 20px 20px 20px;margin:0 10px 10px 0; background-color: #f2f2f2; border-style:hidden;display: inline-block;float: left; }
      
 .serviceImage{width: 39%;margin-top: 30px;padding: 0 3.55% 0 2.45%;}
 .serviceContent{width: 54.5%;}
 .serviceTypes{font-size: 1rem;line-height: 1.38em;display: inline;}
-.service-icon{width: 33.33%;float: left;}
+.service-icon{width: 33.33%;float: left;display: flex;align-items: center;}
 .webDevelopmentSection .serviceImage{ padding:0 0 0 3.417%;}
 .mobileDevelopmentSection .serviceImage{padding: 0 0 0 3.3335%;}
 /*---- Our services css ends ----*/
 
 /*---- Portfolio css starts ----*/
 .portFolioSection{ background-color: #f2f2f2;}
-
-    
-     
 .portfolioContent {font-size: 1.8em;line-height: 2.8em;text-align: left;color: #555555;}
-
- .portfolioList{
-    width: 33%;
-    height:500px;
-    border-style: solid;
-    border-width: 1px;
-border-bottom-color: crimson;
-    float:left; 
-    display: inline;
-    
-}
-.downloadButton{padding-top: 60px;margin-left: 131px;width: 100%; float:left;}
+.portfolioList{width: 33%; height:500px;border-style: solid; border-width: 1px;border-bottom-color: crimson;float:left; display: inline;}
+.downloadButton{padding-top: 60px;width: 100%; float:left;margin:0 0 100px 0;}
+.downloadButton .btn{
+    margin: 0 auto;
+    }
+ .portFolioSection .leftWrapper{ width: 22.417%;margin-top: 69px;}
+  .portFolioSection .rightWrapper{ width: 75%; margin-left: 2.584%;margin-top: 69px;}
     
     
-.portFolioSection .leftWrapper{ width: 22.417%;margin-top: 69px;}
-      
-   
  
+     
 
-.portFolioSection .rightWrapper{ width: 75%; margin-left: 2.584%;margin-top: 69px;}
-
-   
-    
    
 /*---- Portfolio css ends ----*/
 
@@ -174,48 +133,18 @@ position: relative;
     padding-left: 40px;
     width: 100%;
 }
-.clientSayContent{
-    
-    margin-left: -100px;
-    margin-top: 55px;
-    padding-left: 100px;
-    width: 100%;
-  
-    float: left;
-   
-   border: 1px solid #f5f5f5;
-}
-.clientRating{
-margin-top: 40px;
-    width: 100%;
-   
-}
-.clientName{
-    font-size: 2em;
-    margin-top: 39px;
-    width: 100%;
-}
-.clientReview{
-    padding-top: 39px;
-    
-}
-.fa-heart {
-  
-  font-size: 22px;
- color: deepskyblue;
-}
-.clientSaySection .box2{
-    max-height: 70px;
-    max-width: 70px;
-    float: right;
-   display: table-column;
-}
+.clientSayContent{ margin-left: -100px; margin-top: 55px;padding-left: 100px;  width: 100%;float: left;   border: 1px solid #f5f5f5;}
+.clientRating{margin-top: 40px;width: 100%;}   
 
+.clientName{font-size: 2em;margin-top: 39px;width: 100%;}
+.clientReview{  padding-top: 39px;}
+.fa-heart { font-size: 22px; color: deepskyblue;}
+.clientSaySlider{float:right; width: 70px;height: 70px;}
+.clientSaySection .slide{max-height: 70px;max-width: 70px; float: right; display: table-column;}
 
 /*--- Client say css ends ----*/
 
 /*---- CONTENT CSS SECTION ENDS ----*/
-
 
 /*---- FOOTER CSS SECTION STARTS ----*/
 .footerMainWrapper{
@@ -223,113 +152,48 @@ margin-top: 40px;
     width: 100%;
 float: left;
 }
-.footerLeftWrapper{
-    width:66.667%;
-    float: left;
-}
-.footerRightWrapper{
-    width: 33%;
+.footerLeftWrapper{width:66.667%; float: left;}
 
-    float: left;
-}
-.even{
-    margin-left: 20px;
-}
+    
+   
+.footerRightWrapper{width:25.834%;margin:0 0 0 7.5%; float: left;}
+    
+
+   
+
+.even{ margin-left: 20px;}
+
+   
 /*---- Contact us css starts ----*/
-.contactUsSection{
-    margin-top: 73px;
-    
-}
-.contactUsFormWrapper{
-    margin-top: 59px;
-}
-.inputFullWidthSection{
-    width: 100%;
-    float: left;
-    
-}
-.inputHalfWidthSection{
-       width:48.75%;
-    
-    float: left;
-padding-bottom: 20px;
-    
-}
-    input[type="text"],input[type="email"],input[type="tel"],textarea{
-    background-color: #383838;
-    float: left;
-    border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out;
-    padding-top:23px;
-    padding-bottom: 24px;
-padding-left: 20px;
-    font-size: 1rem;
-    width: 100%;
-    
-}
-textarea{
-    width: 73.75%;
-    max-height: 60px;
-}
-.formButtonHolder{
-   width: 23.75%;
-    float: left;
-    margin-left: 20px;
-}
-
-.socialInfoSection{
-    width: 100%;
-    float: left;
-}
-.mail{
-    float: left;
-    width:55%;
-    font-size: 1em;
-
-  line-height: 1.125;
-  letter-spacing: 0.8px;
-  text-align:right;
-  color: #898989;
-}
-
-.socialMediaIcons{
-    float:left;width:45%;
-    
-}
-.iconsRow{
-    width: 100%;
-    float: left;
-    margin-bottom: 20px;
-    
-}
-.box{
+.contactUsSection{ margin-top: 73px;}
+       
 
 
-  background-color: #595959;
+.contactUsFormWrapper{margin: 59px 0 100px 0;}
+.inputFullWidthSection{ width: 100%; float: left;}
+           
 
-  border: solid 2px #595959;
-    border-radius: 50%;
-    padding-top: 23px;
-    padding-bottom: 22px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 2em; 
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
+   
+
+.inputHalfWidthSection{width:48.75%; float: left;padding-bottom: 20px;}
+
+ input[type="text"],input[type="email"],input[type="tel"],textarea{ background-color: #383838; border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out;float: left;font-size: 1rem;padding: 23px 0 24px 20px; width: 100%;}
+ textarea{ width: 73.75%; max-height: 60px; overflow: hidden;}
+ .formButtonHolder{ float: left;width: 23.75%;margin-left: 20px;}    
+  .submit-btn{padding: 0 63px 0 62px;}
+
+.socialInfoSection{width: 100%; float: left;}
+ .mail{color: #898989;float: left; font-size: 16px;line-height: 1.125;letter-spacing: 0.8px;margin: 23px 0 0 0 ;text-align:right; width:51.613%;}
     
-
-}
-.box:hover{
-    background-color: #ffffff;
-}
-.copyRightsText{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 143px;
-}
+ .socialMediaIcons{margin-left: 10px;float:left;width: 45.166%;}
+         
+ .iconsRow{float: left;width: 100%; margin-bottom: 20px;}
+.icon{background-color: #595959;border-radius: 50%;font-size: 2em; float: left;padding: 23px 20px 22px 20px;}   
+.icon:hover {background-color: #ffffff;cursor: pointer;}
+.copyRightsText{width: 100%;text-align: right;float: left;margin-top: 23px;font-size: 1.4em;color: #898989;} 
+   
+    
 /*---- Contact us css ends ----*/
 
-.fas{
-    font-size: 25px;
-}
+
 /*---- FOOTER CSS SECTION ENDS ----*/
