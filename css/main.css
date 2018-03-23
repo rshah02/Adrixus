@@ -24,6 +24,11 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .halfWidth{width:50%}
 .pull-left{float:left;}
 .pull-right{float:right}
+.pRelative{position:relative}
+.pAbsolute{position:absolute}
+.tLeft{text-align:left;}
+.tRight{text-align:right;}
+.tCenter{text-align:center;}
 .btn{height:60px;display:flex;align-items:center;justify-content: center;padding:0 49px;box-shadow:none;background:transparent;font-size:1.6em;font-weight:bold;line-height:12px;text-transform: uppercase;color:#f0606f;letter-spacing: 0.4px;border-image-source: linear-gradient(to top, #f0616f, #f0746f);border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;}
 .container-fluid{max-width: 1200px;margin: 0 auto;width:100%}
@@ -105,10 +110,6 @@ margin: 0 auto;
 .service-icon{width: 33.33%;float: left;}
 .webDevelopmentSection .serviceImage{ padding:0 0 0 3.417%;}
 .mobileDevelopmentSection .serviceImage{padding: 0 0 0 3.3335%;}
-    
-     
-   
-
 /*---- Our services css ends ----*/
 
 /*---- Portfolio css starts ----*/
