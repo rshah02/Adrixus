@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
 <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link href="/css/fonts.css" rel="stylesheet" type="text/css"/>
     <link href="/css/fontawesome-all.css" rel="stylesheet" type="text/css"/>
     <link href="/css/main.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
+   
 
 
 
@@ -41,7 +42,9 @@ $j = jQuery.noConflict();
               </ul>
               
             </div>
+           
         </div>
+          
         <div class="bannerSection fullWidth">
           <div class="leftWrapper pull-left halfWidth">
               <h1 class="tagLine">Let's BUILD to HELP</h1>
@@ -52,11 +55,11 @@ $j = jQuery.noConflict();
               
           </div>
           <div class="rightWrapper pull-right halfWidth">
-                <div class="slide" style="transform: translate(0,397px);">
-                          <i class="fas fa-user"></i>
-              </div> 
+                
             <div><img src="/images/banner-2.png" alt="banner2" class="banner"/></div>
-                     
+                  <div class="slide">
+                          <i class="fas fa-user"></i>
+              </div>    
             <div class="slide">
                 <i class="fas fa-clock"></i> 
             </div>
@@ -67,12 +70,12 @@ $j = jQuery.noConflict();
         </div>
     
       </div>
-      <img src="/images/about-us-up-1.png" alt="bg1" />
+      <img src="/images/about-us-up-1.png" alt="bg1" class="bg-img" />
         
     </div>
-    <div class="contentMainWrapper ">
-      <div class="aboutUsSection">
-        <div class="container-fluid">
+    <div class="contentMainWrapper fullWidth pull-left">
+      <div class="aboutUsSection fullWidth pull-left">
+        <div class="container-fluid fullWidth">
           <h2>About us</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat consectetur adipiscing elit, sed do eiusmod tempor incidi nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>
@@ -81,16 +84,17 @@ $j = jQuery.noConflict();
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat consectetur adipiscing elit, sed do eiusmod tempor incidi nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-          <img src="/images/blockchain-up.png"/>
+          <img src="/images/blockchain-up.png" class="bg-img"/>
       </div>
       <div class="ourServicesSection pull-left fullWidth">
         <div class="container-fluid">
           <div class="blockChainSection serviceContentSection pull-left fullWidth ">
             <div class="leftSection serviceImage pull-left">
+                
               <img src="/images/blockchain.png"/>
               </div>
             <div class="rightSection serviceContent tLeft pull-left">
-              <h3>BlockChain</h3>
+              <h3 class="serviceTitile">BlockChain</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat consectetur adipiscing elit, sed do eiusmod tempor incidi nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>              
                 <div class="serviceTypes fullWidth">
@@ -180,7 +184,7 @@ $j = jQuery.noConflict();
               </div>
               
           </div>
-          <div class="uxDesignSection serviceContentSection pull-left fullWidth">
+         <!-- <div class="uxDesignSection serviceContentSection pull-left fullWidth">
             <div class="leftSection serviceImage pull-left">
               <img src="/images/ux-ui-design.png" />
               </div>
@@ -261,12 +265,12 @@ $j = jQuery.noConflict();
             <div class="rightSection serviceImage pull-left">
           <img src="/images/mobile-dev.png"/>
           </div>
-          </div>
+          </div> -->
         </div>
          
       </div>
       <div class="portFolioSection pull-left fullWidth">
-           <img src="/images/portfolio-up.png"/>
+           <img src="/images/portfolio-up.png" class="bg-img"/>
         <div class="container-fluid">
           <div class="leftWrapper pull-left">
             <h3>Portfolio</h3>
@@ -276,11 +280,24 @@ $j = jQuery.noConflict();
           </div>
           <div class="rightWrapper pull-left">
              
-              <div class="portfolioList"> </div>
-              <div class="portfolioList"> </div>
-              <div class="portfolioList"> </div>
-             
-               
+              <div class="portfolioList"></div>
+                  
+                <!--  <div class="slider multiple-items slick-initialized slick-slider">
+					<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2805px; transform: translate(-1122px, 0px);"><div class="multiple slide cloned" style="width: 187px;"><h3>7</h3></div><div class="multiple slide cloned" style="width: 187px;"><h3>8</h3></div><div class="multiple slide cloned" style="width: 187px;"><h3>9</h3></div></div></div>
+					
+					
+					
+					
+					
+					
+					
+					
+				<a href="javascript:void(0)" class="slick-prev" style="display: block;">Previous</a><a href="javascript:void(0)" class="slick-next" style="display: block;">Next</a><ul class="slick-dots" style="display: block;"><li class="" style="display: inline-block;"><a href="javascript:void(0)">1</a></li><li style="display: none;"><a href="javascript:void(0)">2</a></li><li style="display: none;"><a href="javascript:void(0)">3</a></li></ul></div>  -->
+          
+              
+              
+              
+                      
             </div>
 
             <div class="downloadButton">
@@ -289,7 +306,7 @@ $j = jQuery.noConflict();
               
               </div>
         </div>
-          <img src="/images/clientsay-up.png"/>
+          <img src="/images/clientsay-up.png" class="bg-img"/>
       </div>
       <div class="clientSaySection fullWidth pull-left">
         <div class="container-fluid">
@@ -324,7 +341,7 @@ $j = jQuery.noConflict();
       </div>
     </div>
     <div class="footerMainWrapper pull-left fullWidth">
-           <img src="/images/contact-up.png"/>      
+           <img src="/images/contact-up.png" class="bg-img"/>      
       <div class="contactUsSection fullWidth pull-left">
         
         <div class="container-fluid">
@@ -378,18 +395,17 @@ $j = jQuery.noConflict();
         </div>
       </div>
     </div>
-      <div class="slider">
-      <div> 1</div>
-          <div>2</div>
-      </div>
-  </div>
+    
    <script src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
+   <script type="text/javascript" src="js/slick.min.js"></script>
              <script type=text/jscript>   $j(document).ready(function(){
      
-$j('.slider').slick();
-    });
+$j('.multiple-items').slick({
+  infinite: false,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
     </script>
 </body>
 

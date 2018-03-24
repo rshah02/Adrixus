@@ -45,6 +45,7 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .topSection{margin-bottom:32px;}
 .logoWrapper{padding-top: 30px;}
 .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;}
+.sidenave{direction: none;}
 /*---- Top bar css ends ----*/
 
 /*---- Banner css starts ----*/
@@ -74,7 +75,6 @@ a, a:active{text-decoration-line: none;color: #555555;}
 
 .serviceContentSection{margin-top: 110px;}
 
-
 .box3{ max-width:60px;max-height: 60px;padding: 20px 20px 20px 20px;margin:0 10px 10px 0; background-color: #f2f2f2; border-style:hidden;display: inline-block;float: left; }
      
 .serviceImage{width: 39%;margin-top: 30px;padding: 0 3.55% 0 2.45%;}
@@ -83,6 +83,7 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .service-icon{width: 33.33%;float: left;display: flex;align-items: center;}
 .webDevelopmentSection .serviceImage{ padding:0 0 0 3.417%;}
 .mobileDevelopmentSection .serviceImage{padding: 0 0 0 3.3335%;}
+
 /*---- Our services css ends ----*/
 
 /*---- Portfolio css starts ----*/
@@ -197,3 +198,46 @@ float: left;
 
 
 /*---- FOOTER CSS SECTION ENDS ----*/
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+      /*---- COMMON CSS SECTION STARTS ----*/
+      body{font-size:10px;font-family:'Open Sans', sans-serif;color:#555;}
+body.styleGuidePage{margin:0 100px 50px;}
+h1, h2, h3{font-family:'Oswald', sans-serif;}
+h1{font-size:4em;line-height:90px;font-weight:400;letter-spacing:0.4px;color:#555555;margin: 0px;position: relative;top:-65px;}
+h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin-bottom:40px;}
+h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
+p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
+p.bigFont{font-size:1.4em;line-height:22px;}
+      /*-------COMMON CSS SECTION ENDS -----*/
+      p{font-size:1.4em;line-height:22px;margin-bottom:35px;}
+     
+      .container-fluid{max-width: 724px;margin: 0 auto;width:100%}
+      /*Header Section starts */
+      .topLinks ul li{padding:59px 20 29px 20px;text-align:center;float: left;}
+.topLinks ul li:hover{background-color: #f2f2f2;}
+.topSection{margin-bottom:11px;}
+.logoWrapper{padding-top: 10px;}
+      .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;display: none;}
+      .bannerSection .leftWrapper{margin-top: 124px;}
+      .bg-img{display: none;}
+     
+ 
+      /*Header section CSS Ends */
+      /*Content CSS starts */
+      .serviceContentSection{margin-top: 60px;width: 50%;}
+      .leftSection{width: 100%;}
+      .rightSection{width: 100%;} 
+      .contentMainWrapper{margin-top: 60px;}
+      
+      /*--------------------Portfolio section--------------------------------*/
+      .portfolioList{width:100%;}
+      .portFolioSection .leftWrapper{ width: 41.299%;margin-top: 69px;}
+  .portFolioSection .rightWrapper{ width: 41.988%; margin-left: 8.978%;margin-top: 69px;}
+    /*-----------------------------footer----------------------------------*/
+      .footerLeftWrapper{width:100%; float: left;}
+}
