@@ -17,7 +17,7 @@ h1{font-size:13.3em;line-height:230px;font-weight:400;letter-spacing:2.7px;color
 h2{font-size:5em;line-height:46px;letter-spacing:1.2px;margin-bottom:79px;}
 h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
 p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
-p.bigFont{font-size:1.8em;line-height:28px;}
+p.bigFont{font-size:1.8em;line-height:23px;}
 a, a:active{text-decoration-line: none;color: #555555;}
 .textSemiBold{font-weight:600;}
 .fullWidth{width: 100%}
@@ -33,6 +33,18 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;}
 .container-fluid{max-width: 1200px;margin: 0 auto;width:100%}
 /*---- COMMON CSS SECTION ENDS ----*/
+/* .mainWrapper{width: 100%;} */
+
+/* .headerMainWrapper{
+    max-width: 1600px;
+    width:100%;
+margin: 0 auto;
+} */
+/* .container-fluid{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+} */
 
 /*---- HEADER CSS SECTION STARTS ----*/
 
@@ -45,7 +57,6 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .topSection{margin-bottom:32px;}
 .logoWrapper{padding-top: 30px;}
 .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;}
-.sidenave{direction: none;}
 /*---- Top bar css ends ----*/
 
 /*---- Banner css starts ----*/
@@ -53,10 +64,25 @@ a, a:active{text-decoration-line: none;color: #555555;}
 
 .beliefSection{font-size: 2em;letter-spacing: 0.5px;text-align: left;position: absolute;top: 357px;}
 
-.bannerSection .slide{max-width:90px;max-height: 90px; padding: 32px 32px 32px 32px;margin: 10px 10px 10px 0px;  background-color: #f2f2f2; border-style:hidden; display: inline-block;float: left;}
-.bannerSection .slide:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
-.banner{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
+.box2{
+   max-width:90px;
+    max-height: 90px;
+   padding: 32px 32px 32px 32px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    border-style:hidden;
+  display: inline-block;
+    
+ /*transform: translate(-180px); */
+    
    
+}
+
+.box2:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
+.banner{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
+
 /*---- Banner css ends ----*/
 
 /*---- HEADER CSS SECTION ENDS ----*/
@@ -75,32 +101,46 @@ a, a:active{text-decoration-line: none;color: #555555;}
 
 .serviceContentSection{margin-top: 110px;}
 
-.box3{ max-width:60px;max-height: 60px;padding: 20px 20px 20px 20px;margin:0 10px 10px 0; background-color: #f2f2f2; border-style:hidden;display: inline-block;float: left; }
+
+.box3{ max-width:60px;max-height: 60px;padding: 20px 20px 20px 20px;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden;display: inline-block; }
      
 .serviceImage{width: 39%;margin-top: 30px;padding: 0 3.55% 0 2.45%;}
 .serviceContent{width: 54.5%;}
 .serviceTypes{font-size: 1rem;line-height: 1.38em;display: inline;}
-.service-icon{width: 33.33%;float: left;display: flex;align-items: center;}
+.service-icon{width: 33.33%;float: left;}
 .webDevelopmentSection .serviceImage{ padding:0 0 0 3.417%;}
 .mobileDevelopmentSection .serviceImage{padding: 0 0 0 3.3335%;}
-
 /*---- Our services css ends ----*/
 
 /*---- Portfolio css starts ----*/
 .portFolioSection{ background-color: #f2f2f2;}
-.portfolioContent {font-size: 1.8em;line-height: 2.8em;text-align: left;color: #555555;}
-.portfolioList{width: 33%; height:500px;border-style: solid; border-width: 1px;border-bottom-color: crimson;float:left;}
-.downloadButton{padding-top: 60px;width: 100%; float:left;margin:0 0 100px 0;}
-.downloadButton .btn{
-    margin: 0 auto;
-    }
- .portFolioSection .leftWrapper{ width: 22.417%;margin-top: 69px;}
-  .portFolioSection .rightWrapper{ width: 75%; margin-left: 2.584%;margin-top: 69px;}
-    
-    
- 
-     
 
+    
+     
+.portfolioContent {font-size: 1.8em;line-height: 2.8em;text-align: left;color: #555555;}
+
+ .portfolioList{
+    width: 33%;
+    height:500px;
+    border-style: solid;
+    border-width: 1px;
+border-bottom-color: crimson;
+    float:left; 
+    
+    
+}
+.downloadButton{padding-top: 60px;margin-left: 131px;width: 100%; float:left;}
+    
+    
+.portFolioSection .leftWrapper{ width: 22.417%;margin-top: 69px;}
+      
+   
+ 
+
+.portFolioSection .rightWrapper{ width: 75%; margin-left: 2.584%;margin-top: 69px;}
+
+   
+    
    
 /*---- Portfolio css ends ----*/
 
@@ -114,7 +154,7 @@ a, a:active{text-decoration-line: none;color: #555555;}
     padding-top: 59px;
 }
 .clientSayList{
-    margin:74px 0 89px;
+    padding-top: 74px;
 }
 .clientSayItem .leftWrapper{
     float: left;
@@ -131,20 +171,51 @@ position: relative;
    
 }
 .quoteImage{
-    margin-left:40px;
+    padding-left: 40px;
+    width: 100%;
 }
-.clientSayContent{ margin-left: -100px; margin-top: 28px;padding: 40px 0 0px 140px;  width: 100%;float: left;   border: 1px solid #f5f5f5;}
-.clientRating{width: 100%;}   
+.clientSayContent{
+    
+    margin-left: -100px;
+    margin-top: 55px;
+    padding-left: 100px;
+    width: 100%;
+  
+    float: left;
+   
+   border: 1px solid #f5f5f5;
+}
+.clientRating{
+margin-top: 40px;
+    width: 100%;
+   
+}
+.clientName{
+    font-size: 2em;
+    margin-top: 39px;
+    width: 100%;
+}
+.clientReview{
+    padding-top: 39px;
+    
+}
+.fa-heart {
+  
+  font-size: 22px;
+ color: deepskyblue;
+}
+.clientSaySection .box2{
+    max-height: 70px;
+    max-width: 70px;
+    float: right;
+   display: table-column;
+}
 
-.clientName{font-size: 2em;margin-top: 39px;width: 100%;}
-.clientReview{  padding-top: 39px;}
-.fa-heart { font-size: 22px; color: deepskyblue;}
-.clientSaySlider{float:right; width: 70px;height: 70px;}
-.clientSaySection .slide{max-height: 70px;max-width: 70px; float: right; display: table-column;}
-.slick-initialized .clientSayItem.slick-slide{height:auto}
+
 /*--- Client say css ends ----*/
 
 /*---- CONTENT CSS SECTION ENDS ----*/
+
 
 /*---- FOOTER CSS SECTION STARTS ----*/
 .footerMainWrapper{
@@ -152,115 +223,114 @@ position: relative;
     width: 100%;
 float: left;
 }
-.footerLeftWrapper{width:66.667%; float: left;}
+.footerLeftWrapper{
+    width:66.667%;
+    float: left;
+}
+.footerRightWrapper{
+    width: 33%;
 
-    
-   
-.footerRightWrapper{width:25.834%;margin:0 0 0 7.5%; float: left;}
-    
-
-   
-
-.even{ margin-left: 20px;}
-
-   
+    float: left;
+}
+.even{
+    margin-left: 20px;
+}
 /*---- Contact us css starts ----*/
-.contactUsSection{ margin-top: 73px;}
-       
-
-
-.contactUsFormWrapper{margin: 59px 0 100px 0;}
-.inputFullWidthSection{ width: 100%; float: left;}
-           
-
-   
-
-.inputHalfWidthSection{width:48.75%; float: left;padding-bottom: 20px;}
-
- input[type="text"],input[type="email"],input[type="tel"],textarea{ background-color: #383838; border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out;float: left;font-size: 1rem;padding: 23px 0 24px 20px; width: 100%;}
- textarea{ width: 73.75%; max-height: 60px; overflow: hidden;}
- .formButtonHolder{ float: left;width: 23.75%;margin-left: 20px;}    
-  .submit-btn{padding: 0 63px 0 62px;}
-
-.socialInfoSection{width: 100%; float: left;}
- .mail{color: #898989;float: left; font-size: 16px;line-height: 1.125;letter-spacing: 0.8px;margin: 23px 0 0 0 ;text-align:right; width:51.613%;}
+.contactUsSection{
+    margin-top: 73px;
     
- .socialMediaIcons{margin-left: 10px;float:left;width: 45.166%;}
-         
- .iconsRow{float: left;width: 100%; margin-bottom: 20px;}
-.icon{background-color: #595959;border-radius: 50%;font-size: 2em; float: left;padding: 23px 20px 22px 20px;}   
-.icon:hover {background-color: #ffffff;cursor: pointer;}
-.copyRightsText{width: 100%;text-align: right;float: left;margin-top: 23px;font-size: 1.4em;color: #898989;} 
-.footerRightWrapper-tab{display: none;}
+}
+.contactUsFormWrapper{
+    margin-top: 59px;
+}
+.inputFullWidthSection{
+    width: 100%;
+    float: left;
     
+}
+.inputHalfWidthSection{
+       width:48.75%;
+    
+    float: left;
+padding-bottom: 20px;
+    
+}
+    input[type="text"],input[type="email"],input[type="tel"],textarea{
+    background-color: #383838;
+    float: left;
+    border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out;
+    padding-top:23px;
+    padding-bottom: 24px;
+padding-left: 20px;
+    font-size: 1rem;
+    width: 100%;
+    
+}
+textarea{
+    width: 73.75%;
+    max-height: 60px;
+    overflow: hidden;
+}
+.formButtonHolder{
+   width: 23.75%;
+    float: left;
+    margin-left: 20px;
+}
+
+.socialInfoSection{
+    width: 100%;
+    float: left;
+}
+.mail{
+    float: left;
+    width:55%;
+    font-size: 1em;
+
+  line-height: 1.125;
+  letter-spacing: 0.8px;
+  text-align:right;
+  color: #898989;
+}
+
+.socialMediaIcons{
+    float:left;width:45%;
+    
+}
+.iconsRow{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    
+}
+.box{
+
+
+  background-color: #595959;
+
+  border: solid 2px #595959;
+    border-radius: 50%;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 2em; 
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+
+}
+.box:hover{
+    background-color: #ffffff;
+}
+.copyRightsText{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 143px;
+}
 /*---- Contact us css ends ----*/
 
-
-/*---- FOOTER CSS SECTION ENDS ----*/
-/* Portrait and Landscape */
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-      
-      /*---- COMMON CSS SECTION STARTS ----*/
-    h1{font-size:4em;line-height:40px;font-weight:400;letter-spacing:0.4px;top:0;}
-h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin:40 0 40px 0;}
-h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
-p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
-p.bigFont{font-size:1.4em;line-height:22px;}
-      .btn{height: 50px;}
-      /*-------COMMON CSS SECTION ENDS -----*/
-      p{font-size:1.4em;line-height:22px;margin-bottom:35px;}
-     
-      .container-fluid{max-width: 724px;margin: 0 auto;width:100%}
-      /*Header Section starts */
-      .topLinks ul li{padding:59px 20 29px 20px;text-align:center;float: left;}
-.topLinks ul li:hover{background-color: #f2f2f2;}
-.topSection{margin-bottom:11px;}
-.logoWrapper{padding-top: 10px;}
-      .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;display: none;}
-      .bannerSection .leftWrapper{margin-top: 124px;}
-      .bg-img{display: none;}
-     
- .beliefSection{position:relative;margin-top: 20px;top: 0px;}
-      /*Header section CSS Ends */
-      /*Content CSS starts */
-      .serviceContentSection{margin-top: 60px;width: 50%;}
-      .leftSection{width: 100%;}
-      .rightSection{width: 100%;} 
-      .contentMainWrapper{margin-top: 60px;}
-      
-      /*--------------------Portfolio section--------------------------------*/
-      .portfolioList{width:100%;}
-      .portFolioSection .leftWrapper{ width: 41.299%;margin-top: 69px;}
-  .portFolioSection .rightWrapper{ width: 41.988%; margin-left: 8.978%;margin-top: 69px;}
-    /*-----------------------------footer----------------------------------*/
-      .contactUsSection{ margin-top: 41px;}
-      .contactUsFormWrapper{margin: 5px 0 40px 0;}
-      .footerLeftWrapper{width:100%; float: left;}
-      .inputHalfWidthSection{width:48.618%; float: left;padding-bottom: 20px;}
-      input[type="text"],input[type="email"],input[type="tel"],textarea{float:left;font-size: 1rem;padding: 20px 0 19px 22px; width: 100%;}
-       textarea{ width: 70.441%; max-height: 50px; }
-       .formButtonHolder{ width: 26.794%;margin-left: 20px;}  
-      .footerRightWrapper{display: none;}
-      .footerRightWrapper-tab{display: block; width: 100%;float: left;}
-      .socialInfoSection{ max-width: 225px; margin: 0 auto;width: 100%;float: none;}
-      .socialMediaIcons{width: 100%;margin-left: 0px;}
-          .iconsRow{width: 88.889%; margin:40px 12.5 0px 12.5px;}
-      .even{
-          margin: 0px 10px 0px 10px;
-      }
-    .mail{float: left; font-size: 16px;line-height: 1.125;letter-spacing: 0.8px;margin: 20px 0 0 0 ;text-align:center; width:100%;}
-      
-     .copyRightsText{width: 100%;text-align:center;float: left;margin-top:40px;} 
-      .icon{
-          max-width: 60px;max-height: 60px;}
-      #mail{ max-width: 88.889%;margin: 0 70px 0 70px; }
-         
-         
-     
-      
-         
-      
+.fas{
+    font-size: 25px;
 }
+/*---- FOOTER CSS SECTION ENDS ----*/
