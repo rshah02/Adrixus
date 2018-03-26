@@ -114,7 +114,7 @@ a, a:active{text-decoration-line: none;color: #555555;}
     padding-top: 59px;
 }
 .clientSayList{
-    padding-top: 74px;
+    margin:74px 0 89px;
 }
 .clientSayItem .leftWrapper{
     float: left;
@@ -131,18 +131,17 @@ position: relative;
    
 }
 .quoteImage{
-    padding-left: 40px;
-    width: 100%;
+    margin-left:40px;
 }
-.clientSayContent{ margin-left: -100px; margin-top: 55px;padding-left: 100px;  width: 100%;float: left;   border: 1px solid #f5f5f5;}
-.clientRating{margin-top: 40px;width: 100%;}   
+.clientSayContent{ margin-left: -100px; margin-top: 28px;padding: 40px 0 0px 140px;  width: 100%;float: left;   border: 1px solid #f5f5f5;}
+.clientRating{width: 100%;}   
 
 .clientName{font-size: 2em;margin-top: 39px;width: 100%;}
 .clientReview{  padding-top: 39px;}
 .fa-heart { font-size: 22px; color: deepskyblue;}
 .clientSaySlider{float:right; width: 70px;height: 70px;}
 .clientSaySection .slide{max-height: 70px;max-width: 70px; float: right; display: table-column;}
-
+.slick-initialized .clientSayItem.slick-slide{height:auto}
 /*--- Client say css ends ----*/
 
 /*---- CONTENT CSS SECTION ENDS ----*/
@@ -200,8 +199,8 @@ float: left;
 /*---- FOOTER CSS SECTION ENDS ----*/
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
       
       /*---- COMMON CSS SECTION STARTS ----*/
@@ -241,7 +240,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .contactUsFormWrapper{margin: 5px 0 40px 0;}
       .footerLeftWrapper{width:100%; float: left;}
       .inputHalfWidthSection{width:48.618%; float: left;padding-bottom: 20px;}
-      input[type="text"],input[type="email"],input[type="tel"],textarea{left;font-size: 1rem;padding: 20px 0 19px 22px; width: 100%;}
+      input[type="text"],input[type="email"],input[type="tel"],textarea{float:left;font-size: 1rem;padding: 20px 0 19px 22px; width: 100%;}
        textarea{ width: 70.441%; max-height: 50px; }
        .formButtonHolder{ width: 26.794%;margin-left: 20px;}  
       .footerRightWrapper{display: none;}
