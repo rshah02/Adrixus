@@ -89,7 +89,7 @@ a, a:active{text-decoration-line: none;color: #555555;}
 /*---- Portfolio css starts ----*/
 .portFolioSection{ background-color: #f2f2f2;}
 .portfolioContent {font-size: 1.8em;line-height: 2.8em;text-align: left;color: #555555;}
-.portfolioList{width: 33%; height:500px;border-style: solid; border-width: 1px;border-bottom-color: crimson;float:left; display: inline;}
+.portfolioList{width: 33%; height:500px;border-style: solid; border-width: 1px;border-bottom-color: crimson;float:left;}
 .downloadButton{padding-top: 60px;width: 100%; float:left;margin:0 0 100px 0;}
 .downloadButton .btn{
     margin: 0 auto;
@@ -205,8 +205,8 @@ float: left;
   and (-webkit-min-device-pixel-ratio: 1) {
       
       /*---- COMMON CSS SECTION STARTS ----*/
-    h1{font-size:4em;line-height:90px;font-weight:400;letter-spacing:0.4px;top:-65px;}
-h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin-bottom:40px;}
+    h1{font-size:4em;line-height:40px;font-weight:400;letter-spacing:0.4px;top:0;}
+h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin:40 0 40px 0;}
 h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
 p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
 p.bigFont{font-size:1.4em;line-height:22px;}
@@ -224,7 +224,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .bannerSection .leftWrapper{margin-top: 124px;}
       .bg-img{display: none;}
      
- 
+ .beliefSection{position:relative;margin-top: 20px;top: 0px;}
       /*Header section CSS Ends */
       /*Content CSS starts */
       .serviceContentSection{margin-top: 60px;width: 50%;}
