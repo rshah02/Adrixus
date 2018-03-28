@@ -52,8 +52,12 @@ margin: 0 auto;
 .headerMainWrapper{background:white;}
 /*---- Top bar css starts ----*/
 /* Change the class Name */
-.topLinks ul li{padding:59px 20 29px 20px;text-align:center;float: left;}
-.topLinks ul li:hover{background-color: #f2f2f2;}
+.topLinks ul li a{
+padding: 59px 20 29px 20px;
+float: left;
+}
+.topLinks ul li {float: left;} 
+.topLinks ul li a:hover{background-color: #f2f2f2;}
 .topSection{margin-bottom:32px;}
 .logoWrapper{padding-top: 30px;}
 .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;}
@@ -107,7 +111,7 @@ margin: 0 auto;
 .serviceImage{width: 39%;margin-top: 30px;padding: 0 3.55% 0 2.45%;}
 .serviceContent{width: 54.5%;}
 .serviceTypes{font-size: 1rem;line-height: 1.38em;display: inline;}
-.service-icon{width: 33.33%;float: left;}
+.service-icon{width: 33.33%;display:inline-flex;align-items: center;}
 .webDevelopmentSection .serviceImage{ padding:0 0 0 3.417%;}
 .mobileDevelopmentSection .serviceImage{padding: 0 0 0 3.3335%;}
 /*---- Our services css ends ----*/
@@ -241,7 +245,7 @@ float: left;
     
 }
 .contactUsFormWrapper{
-    margin-top: 59px;
+    margin-top: 59px;margin-bottom: 100px;
 }
 .inputFullWidthSection{
     width: 100%;
@@ -322,7 +326,7 @@ textarea{
 .copyRightsText{
     width: 100%;
     text-align: center;
-    margin-bottom: 143px;
+    margin: 0 auto;
 }
 .footerRightWrapper-tab{display: none;}
 /*---- Contact us css ends ----*/
