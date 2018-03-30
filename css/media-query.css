@@ -11,7 +11,7 @@
       /*---- COMMON CSS SECTION STARTS ----*/
     h1{font-size:4em;line-height:40px;font-weight:400;letter-spacing:0.4px;top:0;}
 
-h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin:40 0 40px 0;}
+h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin:40px 0 40px 0;}
 
 h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
 
@@ -30,6 +30,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .container-fluid{max-width: 724px;margin: 0 auto;width:100%}
 
       /*Header Section starts */
+      .menu{display: block;margin-top: 28px;font-size: 20px;}
       .topLinks ul li{padding:59px 20 29px 20px;text-align:center;float: left;}
 
 .topLinks ul li:hover{background-color: #f2f2f2;}
@@ -52,15 +53,16 @@ p.bigFont{font-size:1.4em;line-height:22px;}
 
       /*Content CSS starts */
 
-      .serviceContentSection{margin-top: 60px;width: 50%;}
+      .serviceContentSection{margin-top: 60px;width:41.298%;padding-right: 60px;}
 
-      .leftSection{width: 100%;}
-
-      .rightSection{width: 100%;} 
-
+      .leftSection{width: 100%;margin-top: 0px;}
+      .leftSection h3{display: block;text-align: left;}
+      .rightSection{width: 100%;text-align: left;} 
+      
+      .rightSection h3{display: none;}
       .contentMainWrapper{margin-top: 60px;}
 
-      
+      .service-icon{font-size: 14px;}
 
       /*--------------------Portfolio section--------------------------------*/
 
