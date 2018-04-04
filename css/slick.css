@@ -117,30 +117,34 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
--------------------------------------------------------------------------------------------------------------------------------------------------
+
 .slick-slider .slick-prev {
     position: absolute;
-    background: url(../img/sprite.png) -50px -40px no-repeat;
     background-color: #f2f2f2;
     display: block;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     text-indent: -9999px;
-    top: 50%;
-    margin-top: -20px;
-    left: -25px;
+    box-shadow: none;
+   bottom: 50px;
+    right: -40px;
     padding: 0px;
+    border-width: 0px;
 }
 .slick-slider .slick-next {
     position: absolute;
-    background: url(../img/sprite.png) -90px -40px no-repeat;
-    background-color: #f2f2f2;
+    background-color:#f2f2f2;
     display: block;
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width:50px;
     text-indent: -9999px;
-    top: 50%;
-    margin-top: 163px;
-    right: -65px;
+    right: -40px;bottom: 0px;
     padding: 0px;
+     border-width: 0px;
+    box-shadow: none;
+}
+
+.slick-slider .slick-next:hover{background-color: rgba(0,0,0,0.5)}
+.slick-slider .slick-prev:hover{
+    background-color: rgba(0,0,0,0.5);
 }
