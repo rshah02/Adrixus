@@ -30,6 +30,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .container-fluid{max-width: 724px;margin: 0 auto;width:100%}
 
       /*Header Section starts */
+      .headerMainWrapper{background-image: none;background-color: #ffffff;height: auto;}
       .menu{display: block;margin-top: 28px;font-size: 20px;}
       .topLinks ul li{padding:59px 20 29px 20px;text-align:center;float: left;}
 
@@ -54,7 +55,8 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       /*Content CSS starts */
 
       .serviceContentSection{margin-top: 60px;width:41.298%;padding-right: 60px;}
-
+.serviceContentSection .serviceImage h3{display:block;}
+      .serviceContentSection .serviceContent h3{display: none;}
       .leftSection{width: 100%;margin-top: 0px;}
       .leftSection h3{display: block;text-align: left;}
       .rightSection{width: 100%;text-align: left;} 

@@ -4,4 +4,10 @@ $j(document).ready(function() {
         slidesToShow: 1,
         slidesToScroll: 1
     });
+     $j('.portfolioList').slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1
+    });
+    
 });
