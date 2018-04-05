@@ -13,7 +13,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body{font-size:10px;font-family:'Open Sans', sans-serif;color:#555;}
 body.styleGuidePage{margin:0 100px 50px;}
 h1, h2, h3{font-family:'Oswald', sans-serif;}
-h1{font-size:13.3em;line-height:230px;font-weight:400;letter-spacing:2.7px;color:#f2f2f2;margin: 0px;position: relative;top:-65px;}
+h1{font-size:13.3em;line-height:1.73em;font-weight:400;letter-spacing:2.7px;color:#f2f2f2;margin: 0px;position: relative;top:-65px;}
 h2{font-size:5em;line-height:46px;letter-spacing:1.2px;margin-bottom:79px;}
 h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
 p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
@@ -41,6 +41,7 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .headerMainWrapper{background-color: #f2f2f2; background-image: url(../images/bg-1.png);backface-visibility: visible;height: 900px;}
 /*---- Top bar css starts ----*/
 /* Change the class Name */
+
 .topLinks ul li a{padding: 59px 20 29px 20px;float: left;}
 .menu{display: none;}
 .topLinks ul li {float: left;} 
@@ -52,13 +53,16 @@ a, a:active{text-decoration-line: none;color: #555555;}
 
 /*---- Banner css starts ----*/
 .bannerSection .leftWrapper{margin-top: 77px;width:50.834%;}
-.bannerSection .rightWrapper{width:49.167%;}
+.bannerSection .rightWrapper{position: relative;width:49.167%;}
 .beliefSection{font-size: 2em;letter-spacing: 0.5px;text-align: left;position: absolute;top: 357px;}
 
-.banner-slide{max-width:90px;max-height: 90px;padding: 32px 32px 32px 32px;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden; display: inline-block;}
-.box2:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
+.banner-slide{position: absolute; width:25px;height: 25px;padding: 33px 32px 32px 33px;text-align: center;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden; display: inline-block;font-size: 25px;}
+.banner-slide:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);cursor: pointer;}
 .banner{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
-
+.banner-slide:nth-child(2){top: 380px;left:-10;}
+.banner-slide:nth-child(3){top: 480px;left:-10;}
+.banner-slide:nth-child(4){top: 480px;left:90;}
+.banner-slide:nth-child(5){top: 380px;left:90;background: none;}
 /*---- Banner css ends ----*/
 
 /*---- HEADER CSS SECTION ENDS ----*/
