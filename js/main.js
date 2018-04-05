@@ -6,7 +6,9 @@ $j(document).ready(function() {
     });
      $j('.portfolioList').slick({
         infinite: false,
-        slidesToShow: 3,
+      
+       slidesToShow: 3,
+    
         slidesToScroll: 1
     });
     

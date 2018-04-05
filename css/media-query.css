@@ -9,11 +9,11 @@
      
 
       /*---- COMMON CSS SECTION STARTS ----*/
-    h1{font-size:4em;line-height:40px;font-weight:400;letter-spacing:0.4px;top:0;}
+    h1{font-size:4em;line-height:40px;font-weight:400;letter-spacing:0.4px;top:0;color: #000000;}
 
 h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin:40px 0 40px 0;}
 
-h3{font-size:3em;line-height:27px;letter-spacing:0.8px;margin-bottom:34px;}
+h3{font-size:3em;line-height:30px;letter-spacing:0.8px;margin-bottom:31px;}
 
 p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
 
@@ -27,52 +27,70 @@ p.bigFont{font-size:1.4em;line-height:22px;}
 
      
 
-      .container-fluid{max-width: 724px;margin: 0 auto;width:100%}
+      .container-fluid{max-width: 728px;margin: 0 auto;width:100%}
 
       /*Header Section starts */
-      .headerMainWrapper{background-image: none;background-color: #ffffff;height: auto;}
-      .menu{display: block;margin-top: 28px;font-size: 20px;}
-      .topLinks ul li{padding:59px 20 29px 20px;text-align:center;float: left;}
+      .headerMainWrapper{background-image: none;background-color: #ffffff;height: auto;margin-bottom: 60px;}
+      .menu{display: block;margin-top: 20px;font-size:3.20em;}
+     /* .topLinks ul li{padding:59px 20px 29px 20px;text-align:center;float: left;}*/
+      .toplinks{display: none;}
 
-.topLinks ul li:hover{background-color: #f2f2f2;}
 
 .topSection{margin-bottom:11px;}
 
 .logoWrapper{padding-top: 10px;}
-
+      .logoWrapper img{max-width: 51.84%;}
       .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;display: none;}
-
-      .bannerSection .leftWrapper{margin-top: 124px;}
-
-      .bg-img{display: none;}
-
-     
-
- .beliefSection{position:relative;margin-top: 20px;top: 0px;}
+.bannerSection .leftWrapper{margin-top: 124px;width:50%;}
+.bannerSection .rightWrapper{width:50%;}
+.banner p{top:312px;right:189px;font-size: 1.6em;}
+.banner-slide{width:20px;height: 20px;padding: 20px 20px 20px 20px;border-style:hidden; display: inline-block;font-size: 20px;}
+.banner-slide:nth-child(2){top: 280px;left:-70px;}
+.banner-slide:nth-child(3){top: 350px;left:-70px;}
+.banner-slide:nth-child(4){top: 350px;left:0px;}
+.banner-slide:nth-child(5){top: 278px;left:0px;background: none;}
+.bg-img{display: none;}
+.beliefSection{position:relative;margin-top: 20px;top: 0px;}
 
       /*Header section CSS Ends */
 
       /*Content CSS starts */
-
-      .serviceContentSection{margin-top: 60px;width:41.298%;padding-right: 60px;}
-.serviceContentSection .serviceImage h3{display:block;}
-      .serviceContentSection .serviceContent h3{display: none;}
-      .leftSection{width: 100%;margin-top: 0px;}
-      .leftSection h3{display: block;text-align: left;}
-      .rightSection{width: 100%;text-align: left;} 
+.contentMainWrapper{margin-top: 60px;}
+        .serviceContentSection{margin-top: 60px;width:45.536%;}
+      .serviceContentSection:nth-child(2n-1){margin-right: 8.93%;}
       
-      .rightSection h3{display: none;}
-      .contentMainWrapper{margin-top: 60px;}
-
-      .service-icon{font-size: 14px;}
+      
+        .serviceContentSection .serviceContent{width: 100%;margin-top: 0px;text-align: left;}
+      .serviceImage{width: 100%;padding: 0px 0px 15px 0px ;margin-top: 0px;}
+     /* .leftSection{width: 100%;} */
+    .uxDesignSection .serviceImage h3,.blockChainSection .serviceImage h3{display:block;}
+      .uxDesignSection .ServiceContent h3,.blockChainSection .serviceContent h3{display:none;}
+     
+      .webDevelopmentSection .leftSection h3{display: block;text-align: left;}
+     /* .webDevelopmentSection .serviceContent{width: 100%;margin-top: 0px;text-align: left;} */
+     /* .webDevelopmentSection .serviceImage{ padding: 0px 0px 15px 0px ;width: 100%} */
+      .webDevelopmentSection .leftSection .serviceImage{display: block;width: 100%;padding-bottom: 31px;}
+     /*.leftSection h3{display: block;text-align: left;}
+      .rightSection{width: 100%;text-align: left;} */ 
+      
+      .webDevelopmentSection .rightSection{display: none;}
+      /*.rightSection h3{display: none;} */
+     
+      .uxDesignSection .ServiceImage{padding: 0px 0px 15px 0px;width: 100%;}
+      .mobileDevelopmentSection .serviceImage{padding: 0px 0px 15px 0px;width: 100%;}
+      .mobileDevelopmentSection .LeftSection{width: 100%;}
+      .mobileDevelopmentSection .LeftSection .ServiceImage{display: block;}
+      .mobileDevelopmentSection .rightSection{width: 100%;display: none;}
+      .service-icon{font-size: 14px;width: 50%;float: left;}
 
       /*--------------------Portfolio section--------------------------------*/
 
-      .portfolioList{width:100%;}
-
-      .portFolioSection .leftWrapper{ width: 41.299%;margin-top: 69px;}
-
-  .portFolioSection .rightWrapper{ width: 41.988%; margin-left: 8.978%;margin-top: 69px;}
+      .portfolioList{width:90%;}
+      .portFolioSection{margin: 60px 0px 0px 0px;}
+      .portFolioSection .leftWrapper{ width: 45.536%;margin-top: 69px;}
+.portfolio-item{width:100%;float: left;border:1px solid;height: 368px;}
+  .portFolioSection .rightWrapper{ width: 45.536%; margin-left: 8.93%;margin-top: 69px;}
+      .downloadButton{padding: 40px 0px 40px 0px;}
 
     /*-----------------------------footer----------------------------------*/
 
@@ -105,11 +123,6 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       
 
 
-      .icon{
-          max-width: 56px;max-height: 56px;
-   
-          margin: 0px;
-       }
 .even{
 
           margin: 0px 10px 0px 10px;
@@ -120,4 +133,13 @@ p.bigFont{font-size:1.4em;line-height:22px;}
 
          
      .copyRightsText{width: 100%;text-align:center;float: left;margin-top:40px;margin-bottom: 0px;color: #898989;font-size: 14px;} 
+}
+/*------*/
+.slick-slider .slick-prev {
+    bottom: 50px;
+    right:0px;
+}
+.slick-slider .slick-next {
+    bottom:0px;
+    right: 0px;
 }
