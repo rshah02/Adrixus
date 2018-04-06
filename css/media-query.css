@@ -43,12 +43,12 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;display: none;}
 .bannerSection .leftWrapper{margin-top: 124px;width:50%;}
 .bannerSection .rightWrapper{width:50%;}
-.banner p{top:312px;right:189px;font-size: 1.6em;}
+.banner p{bottom: 21px;right:189px;font-size: 1.6em;}
 .banner-slide{width:20px;height: 20px;padding: 20px 20px 20px 20px;border-style:hidden; display: inline-block;font-size: 20px;}
 .banner-slide:nth-child(2){top: 280px;left:-70px;}
 .banner-slide:nth-child(3){top: 350px;left:-70px;}
 .banner-slide:nth-child(4){top: 350px;left:0px;}
-.banner-slide:nth-child(5){top: 278px;left:0px;background: none;}
+      .banner .svg{display: block;right:326px;bottom: 19px;}
 .bg-img{display: none;}
 .beliefSection{position:relative;margin-top: 20px;top: 0px;}
 
@@ -59,7 +59,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
         .serviceContentSection{margin-top: 60px;width:45.536%;}
       .serviceContentSection:nth-child(2n-1){margin-right: 8.93%;}
       
-      
+      .slide{ width:14px;height: 14px;padding:13px;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden;display: inline-block; }
         .serviceContentSection .serviceContent{width: 100%;margin-top: 0px;text-align: left;}
       .serviceImage{width: 100%;padding: 0px 0px 15px 0px ;margin-top: 0px;}
      /* .leftSection{width: 100%;} */
@@ -82,7 +82,8 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .mobileDevelopmentSection .LeftSection .ServiceImage{display: block;}
       .mobileDevelopmentSection .rightSection{width: 100%;display: none;}
       .service-icon{font-size: 14px;width: 50%;float: left;}
-
+.leftSection .serviceTypes .service-icon .text{right:0px;left:60px;}
+      .service-icon .text{bottom: 15px;}
       /*--------------------Portfolio section--------------------------------*/
 
       .portfolioList{width:90%;}
@@ -110,36 +111,34 @@ p.bigFont{font-size:1.4em;line-height:22px;}
 
       .footerRightWrapper{display: none;}
 
-      .footerRightWrapper-tab{display: block; width: 100%;float: left;}
+      .footerRightWrapper-tab{display: block; width: 100%;float: left;margin-top: 40px;}
 
-      .socialInfoSection{ max-width: 225px; margin: 0 auto;width: 100%;float: none;}
+      .socialInfoSection{ max-width: 225px; margin: 0 auto;float: none;}
 
-      .socialMediaIcons{width: 100%;margin-left: 0px;}
+      .socialMediaIcons{width: 100%;}
 
-          .iconsRow{width: 88.889%; margin:40px 12.5 0px 12.5px;}
+          .iconsRow{width: 88.889%;margin: 0px 12.5px 0px 12.5px}
       
-    .mail{float: left; font-size: 16px;line-height: 1.125;letter-spacing: 0.8px;margin: 20px 0 0 0 ;text-align:center; width:100%;}
+    .mail{float: left; font-size: 16px;line-height: 1.125;letter-spacing: 0.8px;margin: 20px 0 39px 0 ;text-align:center; width:100%;}
 
-      
-
-
-.even{
-
-          margin: 0px 10px 0px 10px;
-
-      }
-
-      #mail{ max-width: 88.889%;margin: 0 70px 0 70px; }
+  #mail{ max-width: 88.889%;margin: 0 70px 0 70px; }
 
          
      .copyRightsText{width: 100%;text-align:center;float: left;margin-top:40px;margin-bottom: 0px;color: #898989;font-size: 14px;} 
-}
-/*------*/
-.slick-slider .slick-prev {
+      .icon:nth-child(2n){margin-right:5%;margin-left: 5%;margin-bottom: 0px;}
+      .icon:nth-child(2n-1){margin: 0px}
+/*---------------------------------------------*/
+      .slick-slider .slick-prev {
     bottom: 50px;
-    right:0px;
+    right:-50px;
 }
 .slick-slider .slick-next {
     bottom:0px;
-    right: 0px;
+    right: -50px;
 }
+
+
+
+}
+
+

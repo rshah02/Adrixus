@@ -127,7 +127,7 @@
     text-indent: -9999px;
     box-shadow: none;
    bottom: 50px;
-    right: 0px;
+    right: -50px;
     padding: 0px;
     border-width: 0px;
 }
@@ -138,13 +138,14 @@
     height: 50px;
     width:50px;
     text-indent: -9999px;
-    right: 0px;bottom: 0px;
+    right: -50px;bottom: 0px;
     padding: 0px;
      border-width: 0px;
     box-shadow: none;
+
 }
 
-.slick-slider .slick-next:hover{background-color: rgba(0,0,0,0.5)}
+.slick-slider .slick-next:hover{background-color: rgba(0,0,0,0.5);}
 .slick-slider .slick-prev:hover{
     background-color: rgba(0,0,0,0.5);
 }
