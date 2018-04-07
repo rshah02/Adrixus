@@ -32,15 +32,19 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .btn{height:60px;display:flex;align-items:center;justify-content: center;padding:0 60px 0px 60px;box-shadow:none;background:transparent;font-size:1.6em;font-weight:bold;line-height:12px;text-transform: uppercase;color:#f0606f;letter-spacing: 0.4px;border-image-source: linear-gradient(to top, #f0616f, #f0746f);border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out;margin: 0 auto;}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;border: none;}
 .container-fluid{max-width: 1200px;margin: 0 auto;width:100%}
-.triangle {
-	position: absolute;right:0px;bottom: 21px;
-	border-top: 7px solid transparent;
-	border-left: 7px solid white;
-	border-bottom: 7px solid transparent;
-		
-			}
+.next {
+	position: absolute;right:22px;bottom: 22px;
+	border-top: 6px solid transparent;
+	border-left: 6px solid white;
+	border-bottom: 6px solid transparent;
 }
-
+.prev{
+    position: absolute;right:22px;bottom:22px;
+    text-align: center;
+    border-top:6px solid transparent;
+    border-right: 6px solid white;
+    border-bottom: 6px solid transparent;
+}		
 /*---- COMMON CSS SECTION ENDS ----*/
 
 
@@ -112,11 +116,11 @@ a, a:active{text-decoration-line: none;color: #555555;}
 /*---- Our services css ends ----*/
 
 /*---- Portfolio css starts ----*/
-.portFolioSection{ background-color: #f2f2f2;}
+.portFolioSection{ background-color: #f2f2f2;padding-top: 69px;}
 .portfolioContent {font-size: 1.8em;line-height: 2.8em;text-align: left;color: #555555;}
 .portfolioList{width:100%;border-bottom-color: crimson;float:left;}
-.portFolioSection .leftWrapper{ width: 22.417%;margin-top: 69px;}
-.portFolioSection .rightWrapper{ width: 75%; margin-left: 2.584%;margin-top: 69px;}
+.portFolioSection .leftWrapper{ width: 22.417%;}
+.portFolioSection .rightWrapper{ width: 75%; margin-left: 2.584%;}
 .portfolio-item{width: 33%;float: left;border:1px solid;height: 500px;}
 .downloadButton{padding-top: 60px;width: 100%; float:left;padding-bottom: 100px;}
 /*---- Portfolio css ends ----*/
@@ -128,9 +132,9 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .clientSaySection{
     width: 100%;
     float: left;
-    padding-top: 59px;
+    margin: 59px 0px 89px 0px;
     background-color: white;
-    margin-bottom: 89px;
+    
 }
 .clientSayList{
     padding-top: 74px;
@@ -144,21 +148,23 @@ z-index: 3;
 .clientSayItem .rightWrapper{
 
     float: left;
-    width: 83%;
+    width: 84%;
 position: relative;
  z-index: 1;
    
 }
 .quoteImage{
     padding-left: 40px;
-    width: 100%;
+    padding-top: 37px;
+    width: 96.032%;
+    color: #f2f2f2;
 }
 .clientSayContent{
     
     margin-left: -100px;
     margin-top: 55px;
     padding: 0px 27px 0px 140px;
-    width: 93.575%;
+    width: 93.155%;
   
     float: left;
    
@@ -169,13 +175,9 @@ margin-top: 40px;
     width: 100%;
    
 }
-.clientName{
-    font-size: 2em;
-    margin-top: 39px;
-    width: 100%;
-}
+.clientName{font-size: 2em;margin-top: 39px;width: 100%;}
 .clientReview{
-    padding-top: 39px;
+    margin-top: 39px;
     
 }
 .fa-heart {
@@ -207,7 +209,7 @@ float: left;
     float: left;
 }
 .footerRightWrapper{
-    width: 33%;
+    width: 33.334%;
 
     float: left;
 }
