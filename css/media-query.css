@@ -5,7 +5,19 @@
  and (min-width: 320px) 
 
   and (max-width: 1023px)  {
+ .btn{height: 50px;}
+.topLinks{display: none;}
+.logoWrapper{padding-top: 10px;}
+.logoWrapper img{max-width: 51.84%;}
+      .banner-slide{position: relative; width:20px;height: 20px;padding: 20px 20px 20px 20px;border-style:hidden; display: inline-block;font-size: 20px;}
 
+.bg-img{display: none;}
+.webDevelopmentSection .rightSection{display: none;}
+.mobileDevelopmentSection .rightSection{width: 100%;display: none;}
+.quoteImage{display: none;}
+.footerRightWrapper{display: none;}
+      .topSection{margin-bottom:10px;}
+      
 }
 /*----------------------------------------------------------------*/
 @media only screen 
@@ -27,7 +39,7 @@ p{font-size:1.6em;line-height:22px;margin-bottom:35px;}
 
 p.bigFont{font-size:1.4em;line-height:22px;}
 
- .btn{height: 50px;}
+/* .btn{height: 50px;}*/
 
       /*-------COMMON CSS SECTION ENDS -----*/
 
@@ -35,29 +47,29 @@ p.bigFont{font-size:1.4em;line-height:22px;}
 
      
 
-      .container-fluid{max-width: 728px;margin: 0 auto;width:100%}
+      .container-fluid{max-width: 728px;}
 
       /*Header Section starts */
-      .headerMainWrapper{background-image: none;background-color: #ffffff;height: auto;margin-bottom: 60px;}
+      .headerMainWrapper{background-color: #ffffff;margin-bottom: 60px;}
       .menu{display: block;margin-top: 20px;font-size:3.20em;}
      /* .topLinks ul li{padding:59px 20px 29px 20px;text-align:center;float: left;}*/
-      .toplinks{display: none;}
+      
 
 
-.topSection{margin-bottom:11px;}
+/*.topSection{margin-bottom:11px;}*/
 
-.logoWrapper{padding-top: 10px;}
+/*.logoWrapper{padding-top: 10px;}*/
       .logoWrapper img{max-width: 51.84%;}
-      .topLinks{font-size: 1.6em;letter-spacing: 0.3px;text-align: center;color:#000;display: none;}
+     /* .topLinks{display: none;} */
 .bannerSection .leftWrapper{margin-top: 124px;width:50%;}
 .bannerSection .rightWrapper{width:50%;}
 .banner p{bottom: 21px;right:189px;font-size: 1.6em;}
-.banner-slide{width:20px;height: 20px;padding: 20px 20px 20px 20px;border-style:hidden; display: inline-block;font-size: 20px;}
+/*.banner-slide{width:20px;height: 20px;padding: 20px 20px 20px 20px;border-style:hidden; display: inline-block;font-size: 20px;}*/
 .banner-slide:nth-child(2){top: 280px;left:-70px;}
 .banner-slide:nth-child(3){top: 350px;left:-70px;}
 .banner-slide:nth-child(4){top: 350px;left:0px;}
       .banner .svg{display: block;right:326px;bottom: 19px;}
-.bg-img{display: none;}
+/*.bg-img{display: none;} */
 .beliefSection{position:relative;margin-top: 20px;top: 0px;}
 
       /*Header section CSS Ends */
@@ -81,14 +93,14 @@ p.bigFont{font-size:1.4em;line-height:22px;}
      /*.leftSection h3{display: block;text-align: left;}
       .rightSection{width: 100%;text-align: left;} */ 
       
-      .webDevelopmentSection .rightSection{display: none;}
+      /*.webDevelopmentSection .rightSection{display: none;}*/
       /*.rightSection h3{display: none;} */
      
       .uxDesignSection .ServiceImage{padding: 0px 0px 15px 0px;width: 100%;}
       .mobileDevelopmentSection .serviceImage{padding: 0px 0px 15px 0px;width: 100%;}
       .mobileDevelopmentSection .LeftSection{width: 100%;}
       .mobileDevelopmentSection .LeftSection .ServiceImage{display: block;}
-      .mobileDevelopmentSection .rightSection{width: 100%;display: none;}
+/*.mobileDevelopmentSection .rightSection{width: 100%;display: none;}*/
       .service-icon{font-size: 14px;width: 50%;float: left;}
 .leftSection .serviceTypes .service-icon .text{right:0px;left:60px;}
       .service-icon .text{bottom: 15px;}
@@ -107,7 +119,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .clientSayList{padding: 0px 0px 20px 20px;margin: 0px;}
       .clientSayItem .leftWrapper{width: 28.25%;}
       .clientSayItem .rightWrapper{width: 54.803%;margin-left: 20px;}
-      .quoteImage{display: none;}
+      /*.quoteImage{display: none;}*/
       .clientSayContent{margin: 0px;padding:0px;border: none;width: 100%;float: left;}
       .clientRating{margin-top: 20px;}
       .clientName{font-size: 2em;margin-top: 21px;width: 100%;}
@@ -128,7 +140,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
 
        .formButtonHolder{ width: 26.794%;margin-left: 20px;}  
 
-      .footerRightWrapper{display: none;}
+      /*.footerRightWrapper{display: none;} */
 
       .footerRightWrapper-tab{display: block; width: 100%;float: left;margin-top: 40px;}
 
@@ -159,9 +171,60 @@ p.bigFont{font-size:1.4em;line-height:22px;}
         
          /*---- COMMON CSS SECTION STARTS ----*/
         .container-fluid{width:300px;}
-            h1{font-size:3em;line-height:30px;letter-spacing:0.3px;color: #555555;}
-
+            h1{font-size:3em;line-height:30px;letter-spacing:0.3px;top:0;color: #555555;}
+       
+        h1,h2,h3{text-align: center;font-size: 30px;}
+        h2,h3{margin-bottom: 30px;}
         /*-------COMMON CSS SECTION ENDS -----*/    
+        /*----------HEADER SECTION CSS STARTS-------------*/
+        .headerMainWrapper{background-color: #ffffff;margin-bottom: 57px;}
+        .menu{display: block;margin-top: 10px;font-size:2.80em;}
+        .bannerSection .leftWrapper{margin-top: 60px;width:100%;text-align: center;}
+      .bannerSection .rightWrapper{width:100%;}
+        .banner p{bottom: 11px;right:76px;font-size: 1.6em;}
+        .banner-slide:nth-child(2){top: 0;left:0;}
+.banner-slide:nth-child(3){top: 0;left:0;}
+.banner-slide:nth-child(4){top: 0;left:0px;}
         
+
+        
+        /*-----------HEADER SECTION CSS ENDS----------------*/
+        /*-----------CONTENT SECTION CSS STARTS-----------------*/
+        .aboutUsSection{text-align: center;}
+        .serviceContentSection{margin-top: 60px;width:100%;text-align: center;}
+        .serviceContentSection .leftSection{width: 100%;text-align: center;}
+        .serviceContentSection .rightSection{width: 100%;text-align: center;}
+         .service-icon{font-size: 14px;width: 50%;float: left;}
+          /*--------------------Portfolio section--------------------------------*/
+
+      .portfolioList{width:84.92%;}
+      .portFolioSection{margin: 60px 0px 0px 0px;padding: 40px 0px 0px 0px;}
+      .portFolioSection .leftWrapper{ width: 100%;padding: 30px 0px 30px 0px;}
+  .portFolioSection .rightWrapper{ width: 100%;margin: 0 auto;}
+        .portfolio-item{width:100%;float: left;border:1px solid;height: 368px;}
+        .btn{padding:0px 37px 0px 37px;}
+      .downloadButton{padding: 30px 0px 40px 0px;}
+        p.bigFont{font-size:1.4em;line-height:22px;text-align: center;}
+        .service-icon{font-size: 14px;width: 50%;float: left;}
+        .slide{ max-width:40px;max-height: 40px;padding: 12px 12px 14px 14px;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden;float: left}
+.leftSection .serviceTypes .service-icon .text{left: 50px;right: 0px;}
+        
+.leftSection .serviceTypes .service-icon .slide{float: left;margin: 10px 10px 10px 0px;}
+
+      .service-icon .text{bottom: 15px;left: 10px;right: 0;}
+        .serviceTypes{float: left;}
+        
+        
+        
+        /*----------------FooterSection------------------------------------------------*/
+        .inputHalfWidthSection{width:100%; float: left;padding-bottom: 20px;}
+        .footerLeftWrapper{width: 100%;}
+        .footerRightWrapper-tab{display: block; width: 100%;float: left;margin-top: 40px;}
+         .socialMediaIcons{width: 100%;}
+         textarea{ width:100%; max-height: 50px; }
+        
+       .formButtonHolder{ width: 100%;margin-left: 20px;} 
 }
+
+
 
