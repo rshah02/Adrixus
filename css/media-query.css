@@ -101,9 +101,9 @@ p.bigFont{font-size:1.4em;line-height:22px;}
       .mobileDevelopmentSection .LeftSection{width: 100%;}
       .mobileDevelopmentSection .LeftSection .ServiceImage{display: block;}
 /*.mobileDevelopmentSection .rightSection{width: 100%;display: none;}*/
-      .service-icon{font-size: 14px;width: 50%;float: left;}
-.leftSection .serviceTypes .service-icon .text{right:0px;left:60px;}
-      .service-icon .text{bottom: 15px;}
+      .serviceWrapper{font-size: 14px;width: 50%;float: left;}
+.leftSection .serviceTypes .serviceWrapper .text{right:0px;left:60px;}
+      .serviceWrapper .text{bottom: 15px;}
       /*--------------------Portfolio section--------------------------------*/
 
       .portfolioList{width:84.92%;}
@@ -142,13 +142,11 @@ p.bigFont{font-size:1.4em;line-height:22px;}
 
       /*.footerRightWrapper{display: none;} */
 
-      .footerRightWrapper-tab{display: block; width: 100%;float: left;margin-top: 40px;}
+      .footerRightWrapper-tab{display: block;margin-top: 40px;}
 
-      .socialInfoSection{ max-width: 225px; margin: 0 auto;float: none;}
-
-      .socialMediaIcons{width: 100%;}
-
-          .iconsRow{width: 88.889%;margin: 0px 12.5px 0px 12.5px}
+      .socialInfoSection{ max-width: 240px; margin: 0 auto;float: none;}
+      .socialMediaIcons{width:100%}
+      .socialMediaIcons .iconsRow{margin:0px}
       
     .mail{float: left; font-size: 16px;line-height: 1.125;letter-spacing: 0.8px;margin: 20px 0 39px 0 ;text-align:center; width:100%;}
 
@@ -194,7 +192,7 @@ p.bigFont{font-size:1.4em;line-height:22px;}
         .serviceContentSection{margin-top: 60px;width:100%;text-align: center;}
         .serviceContentSection .leftSection{width: 100%;text-align: center;}
         .serviceContentSection .rightSection{width: 100%;text-align: center;}
-         .service-icon{font-size: 14px;width: 50%;float: left;}
+         .serviceWrapper{font-size: 14px;width: 50%;float: left;}
           /*--------------------Portfolio section--------------------------------*/
 
       .portfolioList{width:84.92%;}
@@ -205,13 +203,13 @@ p.bigFont{font-size:1.4em;line-height:22px;}
         .btn{padding:0px 37px 0px 37px;}
       .downloadButton{padding: 30px 0px 40px 0px;}
         p.bigFont{font-size:1.4em;line-height:22px;text-align: center;}
-        .service-icon{font-size: 14px;width: 50%;float: left;}
+        .serviceWrapper{font-size: 14px;width: 50%;float: left;}
         .slide{ max-width:40px;max-height: 40px;padding: 12px 12px 14px 14px;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden;float: left}
-.leftSection .serviceTypes .service-icon .text{left: 50px;right: 0px;}
+.leftSection .serviceTypes .serviceWrapper .text{left: 50px;right: 0px;}
         
-.leftSection .serviceTypes .service-icon .slide{float: left;margin: 10px 10px 10px 0px;}
+.leftSection .serviceTypes .serviceWrapper .slide{float: left;margin: 10px 10px 10px 0px;}
 
-      .service-icon .text{bottom: 15px;left: 10px;right: 0;}
+      .serviceWrapper .text{bottom: 15px;left: 10px;right: 0;}
         .serviceTypes{float: left;}
         
         

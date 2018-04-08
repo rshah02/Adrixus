@@ -30,6 +30,9 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .tRight{text-align:right;}
 .tCenter{text-align:center;}
 .displayFlex {display: flex;}
+.flexColumn {display: flex;flex-direction: column}
+.alignItemsCenter {align-items: center}
+.justifyCenter {justify-content: center}
 .btn{height:60px;display:flex;align-items:center;justify-content: center;padding:0 60px 0px 60px;box-shadow:none;background:transparent;font-size:1.6em;font-weight:bold;line-height:12px;text-transform: uppercase;color:#f0606f;letter-spacing: 0.4px;border-image-source: linear-gradient(to top, #f0616f, #f0746f);border-image-slice: 1;border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px;border:1px solid;transition:all 0.05s ease-in-out;-webkit-transition: all 0.05s ease-in-out;-moz-transition:all 0.05s ease-in-out;margin: 0 auto;cursor:pointer}
 .btn:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);color:white;border: none;}
 .container-fluid{max-width: 1200px;margin: 0 auto;width:100%}
@@ -105,15 +108,15 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .serviceImage{width: 39%;margin-top: 30px;padding: 0 3.55% 0 2.45%;}
 .serviceContent{width: 54.5%;}
 .serviceTypes{font-size: 1rem;line-height: 1.38em;display: inline;}
-.service-icon{position: relative;width: 33.33%;float: left;}
-.service-icon .text{position: absolute;bottom: 24px;}
+.serviceWrapper{position: relative;width: 33.33%;float: left;}
+.serviceWrapper .text{position: absolute;bottom: 24px;}
 .webDevelopmentSection .serviceImage{ padding:0 0 0 3.417%;width: 41.084%}
 .webDevelopmentSection .leftSection .serviceImage{display: none;}
 .mobileDevelopmentSection .leftSection .ServiceImage{display: none;}
 .mobileDevelopmentSection .serviceImage{width: 42.167%; padding: 0 0 0 3.3335%;}
 .uxDesignSection .serviceImage{width: 40.75%;padding:  0 3.417% 0 1.334%;}
-.leftSection .serviceTypes .service-icon .text{right:70px;} 
-.leftSection .serviceTypes .service-icon .slide{margin: 10px 0px 10px 10px;}
+.leftSection .serviceTypes .serviceWrapper .text{right:70px;} 
+.leftSection .serviceTypes .serviceWrapper .slide{margin: 10px 0px 10px 10px;}
 /*---- Our services css ends ----*/
 
 /*---- Portfolio css starts ----*/
