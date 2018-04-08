@@ -153,7 +153,6 @@ a, a:active{text-decoration-line: none;color: #555555;}
   width: 84%;
   position: relative;
   z-index: 1;
-   
 }
 .quoteImage{
     padding-left: 40px;
@@ -222,7 +221,7 @@ float: left;
     
 }
 .contactUsFormWrapper{
-    margin-top: 59px;margin-bottom: 100px;
+    margin-top: 25px;margin-bottom: 100px;
 }
 .inputFullWidthSection{
     width: 100%;
