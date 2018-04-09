@@ -121,7 +121,9 @@
 .slick-slider .slick-prev {
     position: absolute;
     background-color: rgba(0,0,0,0.05);
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     width: 50px;
     text-indent: -9999px;
@@ -134,7 +136,9 @@
 .slick-slider .slick-next {
     position: absolute;
     background-color:rgba(0,0,0,0.05);
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 height: 50px;
     width:50px;
     text-indent: -9999px;
