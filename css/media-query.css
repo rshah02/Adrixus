@@ -1,11 +1,7 @@
 /* Portrait and Landscape */
-@media only screen and (min-width:1024px) and (max-width:1299px){
-.container-fluid{width: 92%;}
-.clientSayList.slick-slider .slick-next{width: 30px;right: -30px;} 
-.clientSayList.slick-slider .slick-prev{width: 30px;right: -30px;} 
-.portfolioList.slick-slider .slick-next{width: 30px;right: -30px;}
-.portfolioList.slick-slider .slick-prev{width: 30px;right: -30px;}
-}
+
+
+
 
 
 @media only screen 
@@ -22,6 +18,7 @@
             .topSection{margin-bottom:10px;}
             .topLinks{display: none;}
             .logoWrapper{padding-top: 10px;}
+            .beliefSection{font-size: 1.8em;}
             .logoWrapper img{max-width: 51.84%;}
             .banner-slide{width:60px;height: 60px;font-size: 2em;}
 
@@ -54,6 +51,20 @@
             .icon:nth-child(2n-1){margin: 0px;}
       }
 /*----------------------------------------------------------------*/
+@media only screen and (min-width:1025px) and (max-width:1299px){
+      .container-fluid{width:91%;}
+      h1{font-size: 10em;top:0;line-height: 1.5em;}
+      }
+
+@media only screen and (min-width:1024px) and (max-width:1099px){
+.container-fluid{width: 87%;}
+h1{font-size: 10em;top:0;line-height: 1.5em;}
+.svgWrapper{padding-bottom: 24px;}
+.svgWrapper .svg{margin-left: 25px;}
+.slide{width: 50px;height: 50px;}
+.serviceWrapper{font-size: 14px;}
+.socialMediaIcons .icon{width: 50px;height:50px;}
+}
 @media only screen 
 
  and (min-width: 768px) 
@@ -63,7 +74,7 @@
      
 
       /*---- COMMON CSS SECTION STARTS ----*/
-            .container-fluid{max-width: 728px;}
+            .container-fluid{max-width: 94.79%;}
             h1{font-size:4em;line-height:40px;font-weight:400;letter-spacing:0.4px;top:0;color: #000000;}
 
             h2{font-size:3em;line-height:46px;letter-spacing:0.8px;margin:40px 0 40px 0;}
@@ -91,11 +102,12 @@
             .bannerSection .leftWrapper{margin-top: 124px;width:50%;}
             .bannerSection .rightWrapper{width:50%;}
             .banner-slide{position: absolute;}
-            .banner p{bottom: 21px;right:189px;font-size: 1.6em;}
-            .banner-slide:nth-child(2){top: 280px;left:-70px;}
+            .svgWrapper{padding-bottom: 21px;}
+            .svgWrapper p{font-size: 1.6em;}
+            .svgWrapper .svg{font-size: 2.6em;color: #ffffff;margin-left: 22px;}
+           .banner-slide:nth-child(2){top: 280px;left:-70px;}
             .banner-slide:nth-child(3){top: 350px;left:-70px;}
             .banner-slide:nth-child(4){top: 350px;left:0px;}
-            .banner .svg{display: block;right:326px;bottom: 19px;}
             .beliefSection{position:relative;margin-top: 20px;top: 0px;}
 
             /*Header section CSS Ends */
@@ -179,8 +191,9 @@
             .bannerSection .rightWrapper{display: none;}
             .rightWrapper-mobile{display: block;}
             .banner-slideWrapper{display: flex;justify-content: center;align-items: center;}
-            .banner .svg{bottom: 9px;right:209px;font-size: 2.2em;}
-            .banner p{bottom: 11px;right:76px;font-size: 1.6em;}
+            .svgWrapper{padding: 0px 0px 11px 0px;}
+            .svgWrapper .svg{font-size: 2.2em;margin-left: 75px;}
+            .svgWrapper p{margin:0px 0px 0px 11px;font-size: 1.6em;}
             .banner-slide{position: relative;}
             .banner-slide:nth-child(2){top: 0;left:0;}
             .banner-slide:nth-child(3){top: 0;left:0;}

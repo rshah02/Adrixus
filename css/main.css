@@ -63,8 +63,9 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .rightWrapper-mobile{display:none;}
 .banner{position: relative;}
 .beliefSection{font-size: 2em;letter-spacing: 0.5px;text-align: left;position: absolute;top: 357px;}
-.banner p{position: absolute;bottom: 7.277%;right:58.6%;font-size: 1.8em;color: #ffffff;margin:0px;}
-.banner .svg{position: absolute;bottom: 6.653%;right:89%;font-size: 2.6em;color: #ffffff;}
+.svgWrapper{position:absolute;bottom: 0;padding-bottom: 35px;display: flex;align-items: center;}
+.svgWrapper p{font-size: 1.8em;color: #ffffff;margin:0px 0px 0px 15px;}
+.svgWrapper .svg{font-size: 2.6em;color: #ffffff;margin-left: 36px;}
 .banner-slide{position: absolute; width:18%;height: 18.713%;margin: 10px 10px 10px 0px;background-color: #f2f2f2; border-style:hidden;display:flex;align-items: center;justify-content: center;font-size: 2.5em;}
 .banner-slide:hover{background-image: linear-gradient(to bottom, #f0756f, #f0606f);cursor: pointer;color: white;}
 .banner{background-image: linear-gradient(to bottom, #f0756f, #f0606f);}
@@ -126,7 +127,8 @@ a, a:active{text-decoration-line: none;color: #555555;}
 .clientSayList{padding-top: 40px;}
 .clientSayItem .leftWrapper{float: left;position: relative; width: 16%;z-index: 3;}
 .clientSayItem .rightWrapper{float: left;width: 84%;position: relative;z-index: 1;}
-.quoteImage{padding:27px 0px 0px 40px;color: #f2f2f2;font-size: 1.30em;}
+.quoteImage{padding:27px 0px 0px 40px;color: #f2f2f2;font-size: 5em;}
+.quoteImage svg{font-size: 1em;}
 .clientSayContent{margin:28px 0px 0px -100px;padding: 0px 27px 0px 140px;width: 93.155%;float: left;Border: 1px solid #f5f5f5;}
 .clientRating{margin-top: 40px;width: 100%;}
 .clientName{font-size: 2em;margin-top: 39px;width: 100%;}
