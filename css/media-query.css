@@ -1,4 +1,12 @@
 /* Portrait and Landscape */
+@media only screen and (min-width:1024px) and (max-width:1299px){
+.container-fluid{width: 92%;}
+.clientSayList.slick-slider .slick-next{width: 30px;right: -30px;} 
+.clientSayList.slick-slider .slick-prev{width: 30px;right: -30px;} 
+.portfolioList.slick-slider .slick-next{width: 30px;right: -30px;}
+.portfolioList.slick-slider .slick-prev{width: 30px;right: -30px;}
+}
+
 
 @media only screen 
 
@@ -40,7 +48,7 @@
             .socialMediaIcons .iconsRow{margin:0px}
             .mail{float: left; font-size: 16px;line-height: 1.125;letter-spacing: 0.8px;margin: 20px 0 39px 0 ;text-align:center; width:100%;}
             #mail{ max-width: 88.889%;margin: 0 70px 0 70px; }
-            input[type="text"],input[type="email"],input[type="tel"],textarea{float:left;font-size: 1em;padding: 20px 0 19px 22px; width: 100%;}
+            input[type="text"],input[type="email"],input[type="tel"],textarea{float:left;font-size: 1.4em;padding: 20px 0 19px 22px; width: 100%;}
             .copyRightsText{width: 100%;text-align:center;float: left;margin-top:40px;margin-bottom: 0px;color: #898989;font-size: 14px;} 
             .icon:nth-child(2n){margin-right:10px;margin-left: 10px;margin-bottom: 0px;}
             .icon:nth-child(2n-1){margin: 0px;}
@@ -140,7 +148,7 @@
 
             /*input[type="text"],input[type="email"],input[type="tel"],textarea{float:left;font-size: 1rem;padding: 20px 0 19px 22px; width: 100%;} */
 
-            textarea{ width: 70.441%; max-height: 50px; }
+            textarea{ width: 70.441%; max-height: 50px;padding: 15px 0px 15px 22px; }
 
             .formButtonHolder{ width: 26.794%;margin-left: 20px;}  
       
@@ -157,9 +165,10 @@
             .container-fluid{width:300px;}
             h1,h2,h3{text-align: center;font-size: 3em;}
             h1{line-height:30px;letter-spacing:0.3px;top:0;color: #555555;}
-            h2,h3{margin-bottom: 30px;}
-            .bigFont p{text-align: center;}
-            textarea{ width:100%; max-height: 50px;margin-bottom: 10px;display: flex;}
+            h2,h3{margin:40px 0 30px 0px;}
+            .bigFont p{text-align: center;font-size: 1.4em;}
+            textarea{ width:100%; max-height: 50px;margin-bottom: 10px;display: flex;padding: 15px 0px 15px 22px;}
+            p{font-size: 1.4em;}
 
         /*-------COMMON CSS SECTION ENDS -----*/    
         /*----------HEADER SECTION CSS STARTS-------------*/
@@ -167,7 +176,10 @@
             .menu{display: block;margin-top: 10px;font-size:2.80em;}
             .bannerSection{display: flex;flex-direction: column-reverse;}
             .bannerSection .leftWrapper{margin-top: 50px;width:100%;text-align: center;}
-            .bannerSection .rightWrapper{width:100%;}
+            .bannerSection .rightWrapper{display: none;}
+            .rightWrapper-mobile{display: block;}
+            .banner-slideWrapper{display: flex;justify-content: center;align-items: center;}
+            .banner .svg{bottom: 9px;right:209px;font-size: 2.2em;}
             .banner p{bottom: 11px;right:76px;font-size: 1.6em;}
             .banner-slide{position: relative;}
             .banner-slide:nth-child(2){top: 0;left:0;}
@@ -179,7 +191,7 @@
         /*-----------HEADER SECTION CSS ENDS----------------*/
         /*-----------CONTENT SECTION CSS STARTS-----------------*/
             .aboutUsSection{text-align: center;}
-            .serviceContentSection{margin-top: 60px;width:100%;text-align: center;}
+            .serviceContentSection{margin-top: 20px;width:100%;text-align: center;}
             .serviceContentSection .leftSection{width: 100%;text-align: center;}
             .serviceContentSection .serviceImage{margin-top: 0px;}
             .serviceContentSection .rightSection{width: 100%;text-align: center;}
@@ -193,8 +205,8 @@
           /*--------------------Portfolio section--------------------------------*/
 
             .portfolioList{width:86.67%;margin: 0 auto;float: none;}
-            .portFolioSection{margin: 60px 0px 0px 0px;padding: 0px 0px 0px 0px;}
-            .portfolioInnerSection{padding:40px 0 0px;}
+            .portFolioSection{margin: 60px 0px 0px 0px;padding: 0px 0px 40px 0px;}
+            .portfolioInnerSection{padding:0px;}
             .portFolioSection .leftWrapper{ width: 100%;padding: 0px 0px 0px 0px;}
             .portFolioSection .rightWrapper{ width: 100%;margin: 0 auto;}
             .portfolioContent {padding-top: 0px;}
@@ -211,10 +223,12 @@
             .clientSayList.slick-slider .slick-prev { bottom: 0px;left:0px;}
             .clientSayList{padding: 0px;}
             .clientRating{margin:20px 0px 20px 0px;}
-            .clientName{margin: 0px;}
-            .clientReview{margin-top: 20px;}
+            .clientName{margin: 0px;font-size: 1.6em;line-height: 25px;}
+            .clientName .boldText{display: flex;justify-content: center;}
+            .clientReview{margin-top: 20px;margin-bottom: 60px;}
+            .fa-heart{font-size: 1.8em;}
         /*----------------FooterSection------------------------------------------------*/
-            .contactUsSection{margin: 0px;padding-top: 35px;}
+            .contactUsSection{margin: 0px;padding:0px;}
             .contactUsFormWrapper{margin: 0px 0px 40px 0px;}
             .inputHalfWidthSection{width:100%; float: left;padding-bottom: 10px;margin: 0px;}
             .inputHalfWidthSection:nth-child(2n-1){margin: 0px;}
