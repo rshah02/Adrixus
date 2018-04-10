@@ -63,7 +63,11 @@
       .svgWrapper .svg{margin-left: 25px;}
       .slide{width: 50px;height: 50px;}
       .serviceWrapper{font-size: 14px;}
-      .socialMediaIcons .icon{width: 50px;height:50px;}
+      .socialMediaIcons .icon{min-width: 50px;min-height:50px;max-width: 50px;max-height:50px;}
+      .bannerSection .leftWrapper{margin-top:10px;}
+      .beliefSection{top:290px}
+      .footerRightWrapper{width:42%}
+      .footerLeftWrapper{width:58%}
 }
 @media only screen 
 
