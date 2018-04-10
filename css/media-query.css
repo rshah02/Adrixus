@@ -34,7 +34,7 @@
             .quoteImage{display: none;}
             .clientSaySection{margin: 60px 0px 60px;}
             .clientSayContent{margin: 0px;padding:0px;border: none;width: 100%;float: left;}
-            .clientSayList.slick-slider .slick-next {bottom:0px;right: 0px;}
+            
 
       /*-------------------------FOOTERSECTION CSS---------------------------------------------*/
 
@@ -57,13 +57,13 @@
       }
 
 @media only screen and (min-width:1024px) and (max-width:1099px){
-.container-fluid{width: 87%;}
-h1{font-size: 10em;top:0;line-height: 1.5em;}
-.svgWrapper{padding-bottom: 24px;}
-.svgWrapper .svg{margin-left: 25px;}
-.slide{width: 50px;height: 50px;}
-.serviceWrapper{font-size: 14px;}
-.socialMediaIcons .icon{width: 50px;height:50px;}
+      .container-fluid{width: 87%;}
+      h1{font-size: 10em;top:0;line-height: 1.5em;}
+      .svgWrapper{padding-bottom: 24px;}
+      .svgWrapper .svg{margin-left: 25px;}
+      .slide{width: 50px;height: 50px;}
+      .serviceWrapper{font-size: 14px;}
+      .socialMediaIcons .icon{width: 50px;height:50px;}
 }
 @media only screen 
 
@@ -143,8 +143,8 @@ h1{font-size: 10em;top:0;line-height: 1.5em;}
             .clientSayList{padding: 0px 0px 20px 20px;margin: 0px;}
             .clientSayItem .leftWrapper{width: 28.25%;}
             .clientSayItem .rightWrapper{width: 54.803%;margin-left: 20px;}
-      
-      
+            .clientSayList.slick-slider .slick-prev { bottom: 50px;right:0px;}
+            .clientSayList.slick-slider .slick-next {bottom:0px;right: 0px;}
             .clientRating{margin-top: 20px;}
             .clientName{font-size: 2em;margin-top: 21px;width: 100%;}
             .clientReview{margin-top: 20px;}
@@ -164,7 +164,7 @@ h1{font-size: 10em;top:0;line-height: 1.5em;}
 
             .formButtonHolder{ width: 26.794%;margin-left: 20px;}  
       
-            .clientSayList.slick-slider .slick-prev { bottom: 50px;right:0px;}
+            
 
       }     
 @media only screen 
@@ -174,7 +174,7 @@ h1{font-size: 10em;top:0;line-height: 1.5em;}
     and (max-width: 767px){
         
          /*---- COMMON CSS SECTION STARTS ----*/
-            .container-fluid{width:300px;}
+            .container-fluid{width:93.75%;}
             h1,h2,h3{text-align: center;font-size: 3em;}
             h1{line-height:30px;letter-spacing:0.3px;top:0;color: #555555;}
             h2,h3{margin:40px 0 30px 0px;}
@@ -233,12 +233,13 @@ h1{font-size: 10em;top:0;line-height: 1.5em;}
             .clientSayItem .rightWrapper{width: 100%;margin: 0 auto;text-align:center;}
             .clientSayItem .leftWrapper{width: 66.67%;margin: 0 auto;float: none;}
             .clientSaySection .container-fluid{border: 1px solid #f5f5f5;}
-            .clientSayList.slick-slider .slick-prev { bottom: 0px;left:0px;}
+            .clientSayList.slick-slider .slick-prev { bottom: 0px;left:10px;}
+            .clientSayList.slick-slider .slick-next {bottom:0px;right: 10px;}
             .clientSayList{padding: 0px;}
             .clientRating{margin:20px 0px 20px 0px;}
             .clientName{margin: 0px;font-size: 1.6em;line-height: 25px;}
             .clientName .boldText{display: flex;justify-content: center;}
-            .clientReview{margin-top: 20px;margin-bottom: 60px;}
+            .clientReview{margin:20px 24px 60px 23px;width: 84.33%;}
             .fa-heart{font-size: 1.8em;}
         /*----------------FooterSection------------------------------------------------*/
             .contactUsSection{margin: 0px;padding:0px;}
